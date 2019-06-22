@@ -9,7 +9,6 @@ namespace IssuesTestSolution.Steps
     [Binding]
     public sealed class IssueSteps
     {
-        // For additional details on SpecFlow step definitions see https://go.specflow.org/doc-stepdef
 
         private readonly ScenarioContext context;
 
@@ -17,33 +16,47 @@ namespace IssuesTestSolution.Steps
         {
             context = injectedContext;
         }
-
-        [Given("I have entered (.*) into the calculator")]
-        public void GivenIHaveEnteredSomethingIntoTheCalculator(int number)
+        [Given(@"client is authenticated")]
+        public void GivenClientIsAuthenticated()
         {
-            //TODO: implement arrange (precondition) logic
-            // For storing and retrieving scenario-specific data see https://go.specflow.org/doc-sharingdata 
-            // To use the multiline text or the table argument of the scenario,
-            // additional string/Table parameters can be defined on the step definition
-            // method. 
-
-            context.Pending();
+            ScenarioContext.Current.Pending();
         }
 
-        [When("I press add")]
-        public void WhenIPressAdd()
+        [Given(@"following endpoint is set to (.*)")]
+        public void GivenFollowingEndpointIsSetTo()
         {
-            //TODO: implement act (action) logic
-
-            context.Pending();
+            ScenarioContext.Current.Pending();
         }
 
-        [Then("the result should be (.*) on the screen")]
-        public void ThenTheResultShouldBe(int result)
+        [When(@"I send a post request with the following request body")]
+        public void WhenISendAPostRequestWithTheFollowingRequestBody(Table table)
         {
-            //TODO: implement assert (verification) logic
-
-            context.Pending();
+            ScenarioContext.Current.Pending();
         }
+
+        [Then(@"response status should be (.*) ok")]
+        public void ThenResponseStatusShouldBeOk(int p0)
+        {
+            ScenarioContext.Current.Pending();
+        }
+
+        [Then(@"response body")]
+        public void ThenResponseBody()
+        {
+            ScenarioContext.Current.Pending();
+        }
+
+        [When(@"I send a put request with the following request body")]
+        public void WhenISendAPutRequestWithTheFollowingRequestBody(Table table)
+        {
+            ScenarioContext.Current.Pending();
+        }
+
+        [When(@"I send the get request")]
+        public void WhenISendTheGetRequest()
+        {
+            ScenarioContext.Current.Pending();
+        }
+
     }
 }

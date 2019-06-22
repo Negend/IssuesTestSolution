@@ -24,7 +24,7 @@ namespace IssuesTestSolution.Helpers
         public static RestRequest CreateRequest()
         {
             restRequest = new RestRequest(Method.GET);
-            restRequest.AddHeader("Accept", "application/json");
+            restRequest.AddHeader("Accept", "application/vnd.github.v3+json");
             return restRequest;
         }
 

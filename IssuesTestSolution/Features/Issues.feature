@@ -1,12 +1,32 @@
 ﻿Feature: Issues
-	In order to avoid silly mistakes
-	As a math idiot
-	I want to be told the sum of two numbers
+	Managing issues with an authorised client
 
-@mytag
-Scenario: Add two numbers
-	Given I have entered 50 into the calculator
-	And I have entered 70 into the calculator
-	When I press add
-	Then the result should be 120 on the
+
+Scenario: An authenticated client can create an issue
+	Given client is authenticated 
+	And following endpoint is set to 
+	When I send a post request with the following request body
+	| key | value |
+	| hi  | ho    |
+	Then response status should be 200 ok
+	And  response body 
+
+
+Scenario: An authenticated client can edit an issue
+	Given client is authenticated 
+	And following endpoint is set to 
+	When I send a put request with the following request body
+	| key | value |
+	| hi  | ho    |
+	Then response status should be 200 ok
+	And  response body 
+
+
+
+Scenario: An authenticated client can list issues for a repo
+	Given client is authenticated 
+	And following endpoint is set to 
+	When I send the get request
+	Then response status should be 200 ok
+	And  response body 
 
