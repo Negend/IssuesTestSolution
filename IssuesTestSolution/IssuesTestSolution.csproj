@@ -84,12 +84,14 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Issues.feature</DependentUpon>
     </Compile>
+    <Compile Include="Helpers\Authentication.cs" />
     <Compile Include="Helpers\HttpRequests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Steps\IssueSteps.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="Environment.Local.config" />
     <None Include="Features\Issues.feature">
       <Generator>SpecFlowSingleFileGenerator</Generator>
       <LastGenOutput>Issues.feature.cs</LastGenOutput>

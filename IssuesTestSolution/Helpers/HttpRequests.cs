@@ -12,8 +12,7 @@ namespace IssuesTestSolution.Helpers
     {
         public static RestClient client;
         public static RestRequest restRequest;
-        public static string baseUrl = "";
-
+        public static string baseUrl = "https://api.github.com";
         public static RestClient SetUrl(string endpoint)
         {
             var url = Path.Combine(baseUrl, endpoint);
@@ -21,7 +20,14 @@ namespace IssuesTestSolution.Helpers
 
         }
 
-        public static RestRequest CreateRequest()
+        public static RestRequest CreateGetRequest()
+        {
+            restRequest = new RestRequest(Method.GET);
+            restRequest.AddHeader("Accept", "application/vnd.github.v3+json");
+            return restRequest;
+        }
+
+        public static RestRequest CreatePostRequest()
         {
             restRequest = new RestRequest(Method.GET);
             restRequest.AddHeader("Accept", "application/vnd.github.v3+json");
