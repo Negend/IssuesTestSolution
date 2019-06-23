@@ -1,15 +1,15 @@
 # IssuesTestSolution
 
-##Tools
+## Tools
 * language C#
 * Visual Studio 2017 
 * Specflow,Specflow Runner 
 * RestSharp
 * Github
 
-##Installation
+## Installation
 
-###Github Access
+### Github Access
 
 Locate the code snippet below and fill in with details of a personal account App.config in solution
 ```  <appSettings>
@@ -22,7 +22,7 @@ Locate the code snippet below and fill in with details of a personal account App
 Along with a personal account  personal stated as **GitUser** a repository is required for this setup. The name of which should be entered as the value for **GitRepo**.
 The **GitToken** is the personal token for the account which can be generated from github website in 'Developer Settings' the token must at least be scoped to repository access.
 
-###Loading solution
+### Loading solution
 
 For users using visual studio 17 
 * Update app.config as described above
