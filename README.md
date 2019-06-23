@@ -34,4 +34,5 @@ For users using visual studio 17
 * A bit more testing on the headers and body of the response of all requests made. 
 * Allow flexible optional parameters in the json body input by the IssueDetails.cs model
 * investigate the certificate issue for a better fix
+* have token and any other personal information set as an environment variable. so security data is not shared in project during work
 
