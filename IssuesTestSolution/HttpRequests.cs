@@ -5,16 +5,17 @@ using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using IssuesTestSolution.Helpers;
+using BoDi;
 
-namespace IssuesTestSolution.Helpers
+namespace IssuesTestSolution
 {
     public class HttpRequests
     {
         IGithubSettings Settings { get; set; }
-        public static RestClient client;
-        public static RestRequest restRequest;
+        public  RestClient client;
+        public  RestRequest restRequest;
         //public static string baseUrl = "https://api.github.com";
-        const string createEndpoint = "g";
 
         public HttpRequests(IGithubSettings settings)
         {
@@ -31,19 +32,27 @@ namespace IssuesTestSolution.Helpers
 
         public RestRequest CreatePostRequest()
         {
-            restRequest = new RestRequest(Resource("Create"), Method.GET);
+            restRequest = new RestRequest(Resource("Create"), Method.POST);
             restRequest.AddHeader("Authorization", Settings.GitToken);
             return restRequest;
         }
+        
 
         public RestRequest CreatePatchRequest()
         {
-            restRequest = new RestRequest(Resource("Edit"), Method.GET);
+            restRequest = new RestRequest(Resource("Edit"), Method.PATCH);
             restRequest.AddHeader("Authorization", Settings.GitToken);
+            
             return restRequest;
         }
 
-        public static IRestResponse GetResponse()
+        public void AddJsonBody(object obj)
+        {
+            object body = obj;
+            restRequest.AddJsonBody(body);
+        }
+
+        public  IRestResponse GetResponse()
         {
             return client.Execute(restRequest);
         }

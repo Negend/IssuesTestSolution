@@ -3,8 +3,7 @@
 
 
 Scenario: An authenticated client can create an issue
-	Given client is authenticated 
-	And following endpoint is set for a create issue request
+	Given authenticated client is set for a create issue request
 	When I send a post request with the following request body
 	| key | value |
 	| hi  | ho    |
@@ -13,8 +12,7 @@ Scenario: An authenticated client can create an issue
 
 
 Scenario: An authenticated client can edit an issue
-	Given client is authenticated 
-	And following endpoint is set for an edit issue request
+	Given authenticated client is set for an edit issue request
 	When I send a put request with the following request body
 	| key | value |
 	| hi  | ho    |
@@ -24,8 +22,7 @@ Scenario: An authenticated client can edit an issue
 
 
 Scenario: An authenticated client can list issues for a repo
-	Given client is authenticated 
-	And following endpoint is set for a retrieve repo issues request
+	Given authenticated client is set for a retrieve repo issues request
 	When I send the get request
 	Then response status should be 200 ok
 	And  response body 

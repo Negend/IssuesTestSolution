@@ -71,9 +71,7 @@ namespace IssuesTestSolution.Features
 #line 5
 this.ScenarioSetup(scenarioInfo);
 #line 6
- testRunner.Given("client is authenticated", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line 7
- testRunner.And("following endpoint is set for a create issue request", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+ testRunner.Given("authenticated client is set for a create issue request", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line hidden
             TechTalk.SpecFlow.Table table1 = new TechTalk.SpecFlow.Table(new string[] {
                         "key",
@@ -81,11 +79,11 @@ this.ScenarioSetup(scenarioInfo);
             table1.AddRow(new string[] {
                         "hi",
                         "ho"});
-#line 8
+#line 7
  testRunner.When("I send a post request with the following request body", ((string)(null)), table1, "When ");
-#line 11
+#line 10
  testRunner.Then("response status should be 200 ok", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
-#line 12
+#line 11
  testRunner.And("response body", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
             this.ScenarioCleanup();
@@ -96,12 +94,10 @@ this.ScenarioSetup(scenarioInfo);
         public virtual void AnAuthenticatedClientCanEditAnIssue()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("An authenticated client can edit an issue", ((string[])(null)));
-#line 15
+#line 14
 this.ScenarioSetup(scenarioInfo);
-#line 16
- testRunner.Given("client is authenticated", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line 17
- testRunner.And("following endpoint is set for an edit issue request", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+#line 15
+ testRunner.Given("authenticated client is set for an edit issue request", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line hidden
             TechTalk.SpecFlow.Table table2 = new TechTalk.SpecFlow.Table(new string[] {
                         "key",
@@ -109,11 +105,11 @@ this.ScenarioSetup(scenarioInfo);
             table2.AddRow(new string[] {
                         "hi",
                         "ho"});
-#line 18
+#line 16
  testRunner.When("I send a put request with the following request body", ((string)(null)), table2, "When ");
-#line 21
+#line 19
  testRunner.Then("response status should be 200 ok", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
-#line 22
+#line 20
  testRunner.And("response body", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
             this.ScenarioCleanup();
@@ -124,17 +120,15 @@ this.ScenarioSetup(scenarioInfo);
         public virtual void AnAuthenticatedClientCanListIssuesForARepo()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("An authenticated client can list issues for a repo", ((string[])(null)));
-#line 26
+#line 24
 this.ScenarioSetup(scenarioInfo);
-#line 27
- testRunner.Given("client is authenticated", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line 28
- testRunner.And("following endpoint is set for a retrieve repo issues request", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
-#line 29
+#line 25
+ testRunner.Given("authenticated client is set for a retrieve repo issues request", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+#line 26
  testRunner.When("I send the get request", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
-#line 30
+#line 27
  testRunner.Then("response status should be 200 ok", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
-#line 31
+#line 28
  testRunner.And("response body", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
             this.ScenarioCleanup();

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using IssuesTestSolution.Helpers;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -11,22 +12,23 @@ namespace IssuesTestSolution.Steps
     {
 
         private readonly ScenarioContext context;
+        private HttpRequests httpsRequests;
 
-        public IssueSteps(ScenarioContext injectedContext)
+        public IssueSteps(ScenarioContext injectedContext, IGithubSettings settings)
         {
-            context = injectedContext;
+            httpsRequests = new HttpRequests(settings);
         }
-        [Given(@"client is authenticated")]
-        public void GivenClientIsAuthenticated()
+        [Given(@"authenticated client is set for a create issue request")]
+        public void GivenAuthenticatedClientIsSetForACreateIssueRequest()
         {
-            ScenarioContext.Current.Pending();
+            httpsRequests.CreatePostRequest(); 
         }
-
 
         [When(@"I send a post request with the following request body")]
         public void WhenISendAPostRequestWithTheFollowingRequestBody(Table table)
         {
-            ScenarioContext.Current.Pending();
+            httpsRequests.AddJsonBody(table);
+            httpsRequests.GetResponse();
         }
 
         [Then(@"response status should be (.*) ok")]
@@ -41,31 +43,26 @@ namespace IssuesTestSolution.Steps
             ScenarioContext.Current.Pending();
         }
 
+        [Given(@"authenticated client is set for an edit issue request")]
+        public void GivenAuthenticatedClientIsSetForAnEditIssueRequest()
+        {
+            httpsRequests.CreatePatchRequest();
+        }
+
         [When(@"I send a put request with the following request body")]
         public void WhenISendAPutRequestWithTheFollowingRequestBody(Table table)
         {
             ScenarioContext.Current.Pending();
         }
 
+        [Given(@"authenticated client is set for a retrieve repo issues request")]
+        public void GivenAuthenticatedClientIsSetForARetrieveRepoIssuesRequest()
+        {
+            httpsRequests.CreateGetRequest();
+        }
+
         [When(@"I send the get request")]
         public void WhenISendTheGetRequest()
-        {
-            ScenarioContext.Current.Pending();
-        }
-        [Given(@"following endpoint is set for a create issue request")]
-        public void GivenFollowingEndpointIsSetForACreateIssueRequest()
-        {
-            ScenarioContext.Current.Pending();
-        }
-
-        [Given(@"following endpoint is set for an edit issue request")]
-        public void GivenFollowingEndpointIsSetForAnEditIssueRequest()
-        {
-            ScenarioContext.Current.Pending();
-        }
-
-        [Given(@"following endpoint is set for a retrieve repo issues request")]
-        public void GivenFollowingEndpointIsSetForARetrieveRepoIssuesRequest()
         {
             ScenarioContext.Current.Pending();
         }
