@@ -1,0 +1,10 @@
+﻿2019-06-23T17:31:40.9140106+01:00;Thread#1;Info;Reading test run result from Json file "C:\Users\nneji\AppData\Local\Temp\tmp8A2E.tmp".
+2019-06-23T17:31:40.9160050+01:00;Thread#1;Info;Successfully read test run result from Json file "C:\Users\nneji\AppData\Local\Temp\tmp8A2E.tmp"
+2019-06-23T17:31:40.9160050+01:00;Thread#1;Info;Deserializing test run result
+2019-06-23T17:31:41.4106813+01:00;Thread#1;Info;Successfully deserialized test run result
+2019-06-23T17:31:41.4106813+01:00;Thread#1;Info;Loading test run result
+2019-06-23T17:31:41.4306312+01:00;Thread#1;Info;Successfully loaded test run result
+2019-06-23T17:31:41.4415984+01:00;Thread#1;Info;creating 1 report(s)
+2019-06-23T17:31:41.4415984+01:00;Thread#1;Info;generate Report ReportTemplate.cshtml
+2019-06-23T17:31:42.5704588+01:00;Thread#1;Info;Finished generating reports.
+========== End of log file ==========

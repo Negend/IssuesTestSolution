@@ -95,15 +95,15 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Helpers\Authentication.cs" />
-    <Compile Include="Helpers\GithubSettings.cs" />
+    <Compile Include="Settings\GithubSettings.cs" />
     <Compile Include="Hooks\GlobalHooks.cs" />
     <Compile Include="HttpRequests.cs" />
-    <Compile Include="Helpers\IGithubSettings.cs" />
+    <Compile Include="Settings\IGithubSettings.cs" />
     <Compile Include="JsonValues.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Registrations.cs" />
     <Compile Include="Steps\IssueSteps.cs" />
+    <Compile Include="Steps\model\IssueDetails.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -119,9 +119,7 @@
       <SubType>Designer</SubType>
     </None>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Steps\model\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>

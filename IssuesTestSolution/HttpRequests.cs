@@ -8,6 +8,7 @@ using System.Threading.Tasks;
 using IssuesTestSolution.Helpers;
 using BoDi;
 using System.Net;
+using IssuesTestSolution.Steps.model;
 
 namespace IssuesTestSolution
 {
@@ -52,7 +53,7 @@ namespace IssuesTestSolution
             return restRequest;
         }
 
-        public void AddJsonBody(List<JsonValues> body)
+        public void AddJsonBody(IssueDetails body)
         {
             restRequest.AddJsonBody(body);
         }

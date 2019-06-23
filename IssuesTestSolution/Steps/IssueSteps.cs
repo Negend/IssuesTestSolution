@@ -2,10 +2,11 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
+using IssuesTestSolution.Steps.model;
 using FluentAssertions;
 using TechTalk.SpecFlow;
 using System.Net;
+using TechTalk.SpecFlow.Assist;
 
 namespace IssuesTestSolution.Steps
 {
@@ -26,7 +27,7 @@ namespace IssuesTestSolution.Steps
         }
 
         [When(@"I send a post request with the following request body")]
-        public void WhenISendAPostRequestWithTheFollowingRequestBody(List<JsonValues> body)
+        public void WhenISendAPostRequestWithTheFollowingRequestBody(IssueDetails body)
         {
             httpsRequests.AddJsonBody(body);
             httpsRequests.SendRequest();
@@ -66,7 +67,7 @@ namespace IssuesTestSolution.Steps
         }
 
         [When(@"I send a patch request with the following request body")]
-        public void WhenISendAPutRequestWithTheFollowingRequestBody(List<JsonValues> body)
+        public void WhenISendAPutRequestWithTheFollowingRequestBody(IssueDetails body)
         {
             httpsRequests.AddJsonBody(body);
             httpsRequests.SendRequest();
@@ -86,15 +87,18 @@ namespace IssuesTestSolution.Steps
 
 
         [StepArgumentTransformation(@"(.*) body")]
-        private List<JsonValues> UserTableTransform(Table table)
+        private IssueDetails UserTableTransform(Table table)
         {
-            List<JsonValues> body = new List<JsonValues>();
+            IssueDetails body = table.CreateInstance<IssueDetails>();
             foreach (var row in table.Rows)
             {
-                body.Add(new JsonValues(row["name"], row["value"]));
+                if (row[0] == "labels")
+                {
+                    body.labels = row[1].Split(',');
+                }
             }
-                return body;
+            return body;
         }
-        
+
     }
 }
