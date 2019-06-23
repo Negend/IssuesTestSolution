@@ -36,3 +36,5 @@ For users using visual studio 17
 * investigate the certificate issue for a better fix
 * have token and any other personal information set as an environment variable. so security data is not shared in project during work
 
+#### For more information or in the event that the solution fails to load, run or files are unable to clone. [Click here](https://drive.google.com/file/d/11iY5OUBoUv0mC-OpSLLM0OXfCyGS4veZ/view?usp=sharing "Video Presentation") for a brief presentation on the cose
+
