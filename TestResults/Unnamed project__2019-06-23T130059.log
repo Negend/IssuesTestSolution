@@ -1,0 +1,211 @@
+﻿2019-06-23T13:00:59.4951201+01:00;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2019-06-23T13:00:59.4951201+01:00;VSTestExecutionThread;Info;SpecFlow+Runner 3.0.352 in Framework clr40 in x64 mode execution started
+2019-06-23T13:00:59.4951201+01:00;VSTestExecutionThread;Info;TestAdapter Location: C:\Repos\TandemTest\IssuesTestSolution\IssuesTestSolution\bin\Debug\TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2019-06-23T13:00:59.5445911+01:00;VSTestExecutionThread;Info;SpecRun: running tests in C:\Repos\TandemTest\IssuesTestSolution\IssuesTestSolution\bin\Debug\IssuesTestSolution.dll
+2019-06-23T13:00:59.5455894+01:00;VSTestExecutionThread;Info;Output folder configured to "C:\Repos\TandemTest\IssuesTestSolution\TestResults" (default)
+2019-06-23T13:00:59.5455894+01:00;VSTestExecutionThread;Info;Profile: 
+2019-06-23T13:01:00.0990951+01:00;VSTestExecutionThread;Info;Log file path: C:\Repos\TandemTest\IssuesTestSolution\TestResults\Unnamed project__2019-06-23T130059.log
+2019-06-23T13:01:00.1020882+01:00;VSTestExecutionThread;Error;Invalid project license: The test assembly name must contain the licensed project name
+2019-06-23T13:01:00.1330049+01:00;VSTestExecutionThread;Info;SpecFlow+Runner Evaluation Mode: Please purchase at http://www.specflow.org/plus to remove test execution delay.
+2019-06-23T13:01:00.1449720+01:00;Thread#13;Info;Checking license
+2019-06-23T13:01:00.1449720+01:00;Thread#13;Error;Invalid project license: The test assembly name must contain the licensed project name
+2019-06-23T13:01:00.1469671+01:00;Thread#13;Error;Invalid project license: The test assembly name must contain the licensed project name
+2019-06-23T13:01:00.2967323+01:00;Thread#13;Info;Evaluation mode: test execution starts in 9 seconds... (this delay is removed in the registered version)
+2019-06-23T13:01:09.2974886+01:00;Thread#13;Info;Evaluation delay finished.
+2019-06-23T13:01:09.3231784+01:00;Thread#13;Info;License check completed
+2019-06-23T13:01:09.3231784+01:00;Thread#13;Info;starting test run
+2019-06-23T13:01:09.3630276+01:00;Thread#13;Info;Discovering target: Default
+2019-06-23T13:01:09.3650219+01:00;Thread#13;Info;Discovering tests from assembly: C:\Repos\TandemTest\IssuesTestSolution\IssuesTestSolution\bin\Debug\IssuesTestSolution.dll
+2019-06-23T13:01:09.4817658+01:00:Appdomain Disposed
+2019-06-23T13:01:09.4817658+01:00;Thread#13;Info;Discovered tests from assembly: C:\Repos\TandemTest\IssuesTestSolution\IssuesTestSolution\bin\Debug\IssuesTestSolution.dll
+2019-06-23T13:01:09.4827060+01:00:Test Suite Dump
+2019-06-23T13:01:09.4856976+01:00:#0: Unnamed project/ - 
+2019-06-23T13:01:09.4856976+01:00:#1: Default - 
+2019-06-23T13:01:09.4856976+01:00:#2: IssuesTestSolution - 
+2019-06-23T13:01:09.4856976+01:00:#3: Issues - 
+2019-06-23T13:01:09.8152891+01:00:#4: An authenticated client can create an issue - TestAssembly:IssuesTestSolution/Feature:Issues/Scenario:An+authenticated+client+can+create+an+issue
+2019-06-23T13:01:09.8162814+01:00:#5: An authenticated client can edit an issue - TestAssembly:IssuesTestSolution/Feature:Issues/Scenario:An+authenticated+client+can+edit+an+issue
+2019-06-23T13:01:09.8162814+01:00:#6: An authenticated client can list issues for a repo - TestAssembly:IssuesTestSolution/Feature:Issues/Scenario:An+authenticated+client+can+list+issues+for+a+repo
+2019-06-23T13:01:09.8162814+01:00:End: Test Suite Dump
+2019-06-23T13:01:09.9263836+01:00:Thread#0:Scheduler: get next test for thread 0
+2019-06-23T13:01:09.9323626+01:00:Thread#:Scheduler: testitem #4 from normal test queue 
+2019-06-23T13:01:09.9323626+01:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2019-06-23T13:01:09.9653397+01:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2019-06-23T13:01:09.9653397+01:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2019-06-23T13:01:09.9653397+01:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+2019-06-23T13:01:09.9653397+01:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2019-06-23T13:01:09.9713225+01:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2019-06-23T13:01:09.9743084+01:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2019-06-23T13:01:09.9822882+01:00:Thread #0: creating new test thread executor for IssuesTestSolution, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+2019-06-23T13:01:09.9893093+01:00:Thread #0: Creating test assembly executor for execution model AppDomain
+2019-06-23T13:01:09.9902706+01:00:Thread #0: Creating test assembly executor for execution model AppDomain
+2019-06-23T13:01:09.9912686+01:00:using TechTalk.SpecRun.Framework.Execution.InProcess.InProcAppDomainTestAssemblyExecutorHost to execute tests
+2019-06-23T13:01:10.7838849+01:00:Thread#0: Test #4/0 is started on thread #0
+2019-06-23T13:01:11.2183261+01:00:Thread#0:T:-> Loading plugin C:\Repos\TandemTest\IssuesTestSolution\IssuesTestSolution\bin\Debug\SpecRun.Runtime.SpecFlowPlugin.dll
+2019-06-23T13:01:11.2253072+01:00:Thread#0:T:-> Using app.config
+2019-06-23T13:01:11.2931287+01:00:Thread#0:B:Given authenticated client is set for a create issue request
+2019-06-23T13:01:11.5339894+01:00:Thread#0:T:error: Interface cannot be resolved: IssuesTestSolution.Helpers.IGithubSettings (resolution path: IssuesTestSolution.Steps.IssueSteps)
+2019-06-23T13:01:11.5429690+01:00:Thread#0:B:When I send a post request with the following request body
+2019-06-23T13:01:11.5429690+01:00:Thread#0:B:  --- table step argument ---
+2019-06-23T13:01:11.5429690+01:00:Thread#0:B:  | key | value |
+2019-06-23T13:01:11.5429690+01:00:Thread#0:B:  | hi  | ho    |
+2019-06-23T13:01:11.5470099+01:00:Thread#0:T:skipped because of previous errors
+2019-06-23T13:01:11.5479508+01:00:Thread#0:B:Then success response status should be 201
+2019-06-23T13:01:11.5509790+01:00:Thread#0:T:skipped because of previous errors
+2019-06-23T13:01:11.5509790+01:00:Thread#0:B:And response body
+2019-06-23T13:01:11.5519419+01:00:Thread#0:T:skipped because of previous errors
+2019-06-23T13:01:11.6502454+01:00:Thread#0:TestItem#4:Scheduler: reschedule tests for testitem #4
+2019-06-23T13:01:11.6512785+01:00:Thread#0:Scheduler: get next test for thread 0
+2019-06-23T13:01:11.6512785+01:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2019-06-23T13:01:11.6522391+01:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2019-06-23T13:01:11.6522391+01:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2019-06-23T13:01:11.6522391+01:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2019-06-23T13:01:11.6522391+01:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+2019-06-23T13:01:11.6522391+01:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2019-06-23T13:01:11.6522391+01:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2019-06-23T13:01:11.6522391+01:00:Thread#0:Scheduler: with testItemExecutionIndex 1
+2019-06-23T13:01:11.7750756+01:00:Thread#0: Test #4/0 is finished on thread #0 as Failed within 0.9911907 seconds
+2019-06-23T13:01:11.7790254+01:00:Thread#0: Test #4/1 is started on thread #0
+2019-06-23T13:01:11.7800223+01:00:Thread#0:B:Given authenticated client is set for a create issue request
+2019-06-23T13:01:11.7840125+01:00:Thread#0:T:error: Interface cannot be resolved: IssuesTestSolution.Helpers.IGithubSettings (resolution path: IssuesTestSolution.Steps.IssueSteps)
+2019-06-23T13:01:11.7889989+01:00:Thread#0:B:When I send a post request with the following request body
+2019-06-23T13:01:11.7889989+01:00:Thread#0:B:  --- table step argument ---
+2019-06-23T13:01:11.7889989+01:00:Thread#0:B:  | key | value |
+2019-06-23T13:01:11.7889989+01:00:Thread#0:B:  | hi  | ho    |
+2019-06-23T13:01:11.7889989+01:00:Thread#0:T:skipped because of previous errors
+2019-06-23T13:01:11.7899953+01:00:Thread#0:B:Then success response status should be 201
+2019-06-23T13:01:11.7899953+01:00:Thread#0:T:skipped because of previous errors
+2019-06-23T13:01:11.7899953+01:00:Thread#0:B:And response body
+2019-06-23T13:01:11.7899953+01:00:Thread#0:T:skipped because of previous errors
+2019-06-23T13:01:11.7909929+01:00:Thread#0:Scheduler: get next test for thread 0
+2019-06-23T13:01:11.7909929+01:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2019-06-23T13:01:11.7909929+01:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2019-06-23T13:01:11.7920040+01:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2019-06-23T13:01:11.7920040+01:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2019-06-23T13:01:11.7920040+01:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+2019-06-23T13:01:11.7920040+01:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2019-06-23T13:01:11.7920040+01:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2019-06-23T13:01:11.7920040+01:00:Thread#0:Scheduler: with testItemExecutionIndex 2
+2019-06-23T13:01:11.7920040+01:00:Thread#0: Test #4/1 is finished on thread #0 as Failed within 0.0129786 seconds
+2019-06-23T13:01:11.7929884+01:00:Thread#0: Test #4/2 is started on thread #0
+2019-06-23T13:01:11.7929884+01:00:Thread#0:B:Given authenticated client is set for a create issue request
+2019-06-23T13:01:11.7939852+01:00:Thread#0:T:error: Interface cannot be resolved: IssuesTestSolution.Helpers.IGithubSettings (resolution path: IssuesTestSolution.Steps.IssueSteps)
+2019-06-23T13:01:11.7939852+01:00:Thread#0:B:When I send a post request with the following request body
+2019-06-23T13:01:11.7949828+01:00:Thread#0:B:  --- table step argument ---
+2019-06-23T13:01:11.7949828+01:00:Thread#0:B:  | key | value |
+2019-06-23T13:01:11.7949828+01:00:Thread#0:B:  | hi  | ho    |
+2019-06-23T13:01:11.7949828+01:00:Thread#0:T:skipped because of previous errors
+2019-06-23T13:01:11.7959803+01:00:Thread#0:B:Then success response status should be 201
+2019-06-23T13:01:11.7959803+01:00:Thread#0:T:skipped because of previous errors
+2019-06-23T13:01:11.7959803+01:00:Thread#0:B:And response body
+2019-06-23T13:01:11.7959803+01:00:Thread#0:T:skipped because of previous errors
+2019-06-23T13:01:11.7959803+01:00:Thread#0:Scheduler: get next test for thread 0
+2019-06-23T13:01:11.7959803+01:00:Thread#:Scheduler: testitem #5 from normal test queue 
+2019-06-23T13:01:11.7959803+01:00:Thread#0:Scheduler: considering testitem #5 for thread 0
+2019-06-23T13:01:11.7959803+01:00:Thread#0:TestItem#5:testItemMatchesCurrentTestThread:UnSpecific
+2019-06-23T13:01:11.7959803+01:00:Thread#0:TestItem#5:runsOnOneOtherThreadSpecific:False
+2019-06-23T13:01:11.7959803+01:00:Thread#0:TestItem#5:runsOnOneOtherThreadUnspecific:False
+2019-06-23T13:01:11.7959803+01:00:Thread#0:Scheduler: using testitem #5 for thread 0
+2019-06-23T13:01:11.7959803+01:00:Thread#0:Scheduler: Test #5 is scheduled for thread
+2019-06-23T13:01:11.7959803+01:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2019-06-23T13:01:11.7969764+01:00:Thread#0: Test #4/2 is finished on thread #0 as Failed within 0.003988 seconds
+2019-06-23T13:01:11.7969764+01:00:Thread#0: Test #5/0 is started on thread #0
+2019-06-23T13:01:11.7979740+01:00:Thread#0:B:Given authenticated client is set for an edit issue request
+2019-06-23T13:01:11.8009701+01:00:Thread#0:T:error: Interface cannot be resolved: IssuesTestSolution.Helpers.IGithubSettings (resolution path: IssuesTestSolution.Steps.IssueSteps)
+2019-06-23T13:01:11.8009701+01:00:Thread#0:B:When I send a patch request with the following request body
+2019-06-23T13:01:11.8009701+01:00:Thread#0:B:  --- table step argument ---
+2019-06-23T13:01:11.8009701+01:00:Thread#0:B:  | key | value |
+2019-06-23T13:01:11.8009701+01:00:Thread#0:B:  | hi  | ho    |
+2019-06-23T13:01:11.8009701+01:00:Thread#0:T:skipped because of previous errors
+2019-06-23T13:01:11.8009701+01:00:Thread#0:B:Then success response status should be 200
+2019-06-23T13:01:11.8009701+01:00:Thread#0:T:skipped because of previous errors
+2019-06-23T13:01:11.8009701+01:00:Thread#0:B:And response body
+2019-06-23T13:01:11.8019654+01:00:Thread#0:T:skipped because of previous errors
+2019-06-23T13:01:11.8019654+01:00:Thread#0:TestItem#5:Scheduler: reschedule tests for testitem #5
+2019-06-23T13:01:11.8019654+01:00:Thread#0:Scheduler: get next test for thread 0
+2019-06-23T13:01:11.8019654+01:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #5
+2019-06-23T13:01:11.8019654+01:00:Thread#0:Scheduler: considering testitem #5 for thread 0
+2019-06-23T13:01:11.8019654+01:00:Thread#0:TestItem#5:testItemMatchesCurrentTestThread:UnSpecific
+2019-06-23T13:01:11.8019654+01:00:Thread#0:TestItem#5:runsOnOneOtherThreadSpecific:False
+2019-06-23T13:01:11.8019654+01:00:Thread#0:TestItem#5:runsOnOneOtherThreadUnspecific:False
+2019-06-23T13:01:11.8019654+01:00:Thread#0:Scheduler: using testitem #5 for thread 0
+2019-06-23T13:01:11.8019654+01:00:Thread#0:Scheduler: Test #5 is scheduled for thread
+2019-06-23T13:01:11.8019654+01:00:Thread#0:Scheduler: with testItemExecutionIndex 1
+2019-06-23T13:01:11.8029626+01:00:Thread#0: Test #5/0 is finished on thread #0 as Failed within 0.0059862 seconds
+2019-06-23T13:01:11.8029626+01:00:Thread#0: Test #5/1 is started on thread #0
+2019-06-23T13:01:11.8029626+01:00:Thread#0:B:Given authenticated client is set for an edit issue request
+2019-06-23T13:01:11.8039586+01:00:Thread#0:T:error: Interface cannot be resolved: IssuesTestSolution.Helpers.IGithubSettings (resolution path: IssuesTestSolution.Steps.IssueSteps)
+2019-06-23T13:01:11.8039586+01:00:Thread#0:B:When I send a patch request with the following request body
+2019-06-23T13:01:11.8039586+01:00:Thread#0:B:  --- table step argument ---
+2019-06-23T13:01:11.8039586+01:00:Thread#0:B:  | key | value |
+2019-06-23T13:01:11.8039586+01:00:Thread#0:B:  | hi  | ho    |
+2019-06-23T13:01:11.8039586+01:00:Thread#0:T:skipped because of previous errors
+2019-06-23T13:01:11.8049573+01:00:Thread#0:B:Then success response status should be 200
+2019-06-23T13:01:11.8049573+01:00:Thread#0:T:skipped because of previous errors
+2019-06-23T13:01:11.8049573+01:00:Thread#0:B:And response body
+2019-06-23T13:01:11.8049573+01:00:Thread#0:T:skipped because of previous errors
+2019-06-23T13:01:11.8049573+01:00:Thread#0:Scheduler: get next test for thread 0
+2019-06-23T13:01:11.8049573+01:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #5
+2019-06-23T13:01:11.8049573+01:00:Thread#0:Scheduler: considering testitem #5 for thread 0
+2019-06-23T13:01:11.8049573+01:00:Thread#0:TestItem#5:testItemMatchesCurrentTestThread:UnSpecific
+2019-06-23T13:01:11.8049573+01:00:Thread#0:TestItem#5:runsOnOneOtherThreadSpecific:False
+2019-06-23T13:01:11.8049573+01:00:Thread#0:TestItem#5:runsOnOneOtherThreadUnspecific:False
+2019-06-23T13:01:11.8049573+01:00:Thread#0:Scheduler: using testitem #5 for thread 0
+2019-06-23T13:01:11.8049573+01:00:Thread#0:Scheduler: Test #5 is scheduled for thread
+2019-06-23T13:01:11.8049573+01:00:Thread#0:Scheduler: with testItemExecutionIndex 2
+2019-06-23T13:01:11.8059549+01:00:Thread#0: Test #5/1 is finished on thread #0 as Failed within 0.0029923 seconds
+2019-06-23T13:01:11.8059549+01:00:Thread#0: Test #5/2 is started on thread #0
+2019-06-23T13:01:11.8059549+01:00:Thread#0:B:Given authenticated client is set for an edit issue request
+2019-06-23T13:01:11.8069502+01:00:Thread#0:T:error: Interface cannot be resolved: IssuesTestSolution.Helpers.IGithubSettings (resolution path: IssuesTestSolution.Steps.IssueSteps)
+2019-06-23T13:01:11.8069502+01:00:Thread#0:B:When I send a patch request with the following request body
+2019-06-23T13:01:11.8069502+01:00:Thread#0:B:  --- table step argument ---
+2019-06-23T13:01:11.8069502+01:00:Thread#0:B:  | key | value |
+2019-06-23T13:01:11.8069502+01:00:Thread#0:B:  | hi  | ho    |
+2019-06-23T13:01:11.8069502+01:00:Thread#0:T:skipped because of previous errors
+2019-06-23T13:01:11.8079493+01:00:Thread#0:B:Then success response status should be 200
+2019-06-23T13:01:11.8079493+01:00:Thread#0:T:skipped because of previous errors
+2019-06-23T13:01:11.8079493+01:00:Thread#0:B:And response body
+2019-06-23T13:01:11.8079493+01:00:Thread#0:T:skipped because of previous errors
+2019-06-23T13:01:11.8079493+01:00:Thread#0:Scheduler: get next test for thread 0
+2019-06-23T13:01:11.8079493+01:00:Thread#:Scheduler: testitem #6 from normal test queue 
+2019-06-23T13:01:11.8079493+01:00:Thread#0:Scheduler: considering testitem #6 for thread 0
+2019-06-23T13:01:11.8079493+01:00:Thread#0:TestItem#6:testItemMatchesCurrentTestThread:UnSpecific
+2019-06-23T13:01:11.8079493+01:00:Thread#0:TestItem#6:runsOnOneOtherThreadSpecific:False
+2019-06-23T13:01:11.8079493+01:00:Thread#0:TestItem#6:runsOnOneOtherThreadUnspecific:False
+2019-06-23T13:01:11.8079493+01:00:Thread#0:Scheduler: using testitem #6 for thread 0
+2019-06-23T13:01:11.8079493+01:00:Thread#0:Scheduler: Test #6 is scheduled for thread
+2019-06-23T13:01:11.8079493+01:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2019-06-23T13:01:11.8089438+01:00:Thread#0: Test #5/2 is finished on thread #0 as Failed within 0.0029889 seconds
+2019-06-23T13:01:11.8089438+01:00:Thread#0: Test #6/0 is started on thread #0
+2019-06-23T13:01:11.8089438+01:00:Thread#0:B:Given authenticated client is set for a retrieve repo issues request
+2019-06-23T13:01:11.8109748+01:00:Thread#0:T:error: Interface cannot be resolved: IssuesTestSolution.Helpers.IGithubSettings (resolution path: IssuesTestSolution.Steps.IssueSteps)
+2019-06-23T13:01:11.8109748+01:00:Thread#0:B:When I send the get request
+2019-06-23T13:01:11.8119365+01:00:Thread#0:T:skipped because of previous errors
+2019-06-23T13:01:11.8119365+01:00:Thread#0:B:Then success response status should be 200
+2019-06-23T13:01:11.8119365+01:00:Thread#0:T:skipped because of previous errors
+2019-06-23T13:01:11.8119365+01:00:Thread#0:B:And response body
+2019-06-23T13:01:11.8119365+01:00:Thread#0:T:skipped because of previous errors
+2019-06-23T13:01:11.8129367+01:00:Cancelling because configured number of failures reached
+2019-06-23T13:01:11.8149375+01:00:Thread#0: Test #6/0 is finished on thread #0 as Failed within 0.0059937 seconds
+2019-06-23T13:01:11.8270560+01:00:Appdomain Disposed
+2019-06-23T13:01:11.8290088+01:00:Trying to cancel thread
+2019-06-23T13:01:11.8290088+01:00:Thread cancelled
+2019-06-23T13:01:11.8369860+01:00:Thread#-1:Scheduler: get next test for thread -1
+2019-06-23T13:01:11.8369860+01:00:Thread#:Scheduler: at the end of normal test queue
+2019-06-23T13:01:11.8369860+01:00:Thread#-1:Scheduler: enumerator for thread is at end
+2019-06-23T13:01:11.8449669+01:00;Thread#13;Info;test run finished
+2019-06-23T13:01:11.8449669+01:00;Thread#13;Info;publishing test results
+2019-06-23T13:01:11.9387516+01:00;Thread#13;Info;test results published
+2019-06-23T13:01:11.9387516+01:00;Thread#13;Info;generating reports
+2019-06-23T13:01:12.0834112+01:00;Thread#13;Info;Starting external report generation process
+2019-06-23T13:01:15.4060159+01:00;Thread#13;Info;Successfully generated reports.
+2019-06-23T13:01:15.4090082+01:00;Thread#13;Info;Successfully generated reports
+2019-06-23T13:01:15.4419254+01:00:Total: 3 (test executions: 7)
+2019-06-23T13:01:15.4459096+01:00:Succeeded: 0
+2019-06-23T13:01:15.4479059+01:00:Ignored: 0
+2019-06-23T13:01:15.4499010+01:00:Pending: 0
+2019-06-23T13:01:15.4508986+01:00:Skipped: 0
+2019-06-23T13:01:15.4538905+01:00:Failed: 3
+2019-06-23T13:01:15.4848065+01:00;VSTestExecutionThread;Info;Adding attachments to VSTest
+2019-06-23T13:01:15.4858040+01:00;VSTestExecutionThread;Info;adding Test Execution Report 'C:\Repos\TandemTest\IssuesTestSolution\TestResults\Unnamed project__2019-06-23T130059.html'
+========== End of log file ==========

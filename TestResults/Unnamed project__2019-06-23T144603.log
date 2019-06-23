@@ -1,0 +1,120 @@
+﻿2019-06-23T14:46:02.9768737+01:00;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2019-06-23T14:46:02.9768737+01:00;VSTestExecutionThread;Info;SpecFlow+Runner 3.0.352 in Framework clr40 in x64 mode execution started
+2019-06-23T14:46:02.9768737+01:00;VSTestExecutionThread;Info;TestAdapter Location: C:\Repos\TandemTest\IssuesTestSolution\IssuesTestSolution\bin\Debug\TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2019-06-23T14:46:03.0217496+01:00;VSTestExecutionThread;Info;SpecRun: running tests in C:\Repos\TandemTest\IssuesTestSolution\IssuesTestSolution\bin\Debug\IssuesTestSolution.dll
+2019-06-23T14:46:03.0217496+01:00;VSTestExecutionThread;Info;Output folder configured to "C:\Repos\TandemTest\IssuesTestSolution\TestResults" (default)
+2019-06-23T14:46:03.0217496+01:00;VSTestExecutionThread;Info;Profile: 
+2019-06-23T14:46:03.0506730+01:00;VSTestExecutionThread;Info;Log file path: C:\Repos\TandemTest\IssuesTestSolution\TestResults\Unnamed project__2019-06-23T144603.log
+2019-06-23T14:46:03.0536650+01:00;VSTestExecutionThread;Error;Invalid project license: The test assembly name must contain the licensed project name
+2019-06-23T14:46:03.0646356+01:00;VSTestExecutionThread;Info;SpecFlow+Runner Evaluation Mode: Please purchase at http://www.specflow.org/plus to remove test execution delay.
+2019-06-23T14:46:03.0726274+01:00;Thread#14;Info;Checking license
+2019-06-23T14:46:03.0731610+01:00;Thread#14;Error;Invalid project license: The test assembly name must contain the licensed project name
+2019-06-23T14:46:03.0751357+01:00;Thread#14;Error;Invalid project license: The test assembly name must contain the licensed project name
+2019-06-23T14:46:03.0950822+01:00;Thread#14;Info;Evaluation mode: test execution starts in 8 seconds... (this delay is removed in the registered version)
+2019-06-23T14:46:11.0966877+01:00;Thread#14;Info;Evaluation delay finished.
+2019-06-23T14:46:11.1032991+01:00;Thread#14;Info;License check completed
+2019-06-23T14:46:11.1032991+01:00;Thread#14;Info;starting test run
+2019-06-23T14:46:11.1133129+01:00;Thread#14;Info;Discovering target: Default
+2019-06-23T14:46:11.1133129+01:00;Thread#14;Info;Discovering tests from assembly: C:\Repos\TandemTest\IssuesTestSolution\IssuesTestSolution\bin\Debug\IssuesTestSolution.dll
+2019-06-23T14:46:11.6438537+01:00:Appdomain Disposed
+2019-06-23T14:46:11.6438537+01:00;Thread#14;Info;Discovered tests from assembly: C:\Repos\TandemTest\IssuesTestSolution\IssuesTestSolution\bin\Debug\IssuesTestSolution.dll
+2019-06-23T14:46:11.6458504+01:00:Test Suite Dump
+2019-06-23T14:46:11.6488405+01:00:#0: Unnamed project/ - 
+2019-06-23T14:46:11.6488405+01:00:#1: Default - 
+2019-06-23T14:46:11.6488405+01:00:#2: IssuesTestSolution - 
+2019-06-23T14:46:11.6488405+01:00:#3: Issues - 
+2019-06-23T14:46:11.7017195+01:00:#6: An authenticated client can list issues for a repo - TestAssembly:IssuesTestSolution/Feature:Issues/Scenario:An+authenticated+client+can+list+issues+for+a+repo
+2019-06-23T14:46:11.7026967+01:00:End: Test Suite Dump
+2019-06-23T14:46:11.7425908+01:00:Thread#0:Scheduler: get next test for thread 0
+2019-06-23T14:46:11.7465792+01:00:Thread#:Scheduler: testitem #6 from normal test queue 
+2019-06-23T14:46:11.7465792+01:00:Thread#0:Scheduler: considering testitem #6 for thread 0
+2019-06-23T14:46:11.7525642+01:00:Thread#0:TestItem#6:testItemMatchesCurrentTestThread:UnSpecific
+2019-06-23T14:46:11.7525642+01:00:Thread#0:TestItem#6:runsOnOneOtherThreadSpecific:False
+2019-06-23T14:46:11.7525642+01:00:Thread#0:TestItem#6:runsOnOneOtherThreadUnspecific:False
+2019-06-23T14:46:11.7525642+01:00:Thread#0:Scheduler: using testitem #6 for thread 0
+2019-06-23T14:46:11.7545597+01:00:Thread#0:Scheduler: Test #6 is scheduled for thread
+2019-06-23T14:46:11.7565533+01:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2019-06-23T14:46:11.7595445+01:00:Thread #0: creating new test thread executor for IssuesTestSolution, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+2019-06-23T14:46:11.7635337+01:00:Thread #0: Creating test assembly executor for execution model AppDomain
+2019-06-23T14:46:11.7645309+01:00:Thread #0: Creating test assembly executor for execution model AppDomain
+2019-06-23T14:46:11.7645309+01:00:using TechTalk.SpecRun.Framework.Execution.InProcess.InProcAppDomainTestAssemblyExecutorHost to execute tests
+2019-06-23T14:46:11.8438950+01:00:Thread#0: Test #6/0 is started on thread #0
+2019-06-23T14:46:12.3829903+01:00:Thread#0:T:-> Loading plugin C:\Repos\TandemTest\IssuesTestSolution\IssuesTestSolution\bin\Debug\SpecRun.Runtime.SpecFlowPlugin.dll
+2019-06-23T14:46:12.3909689+01:00:Thread#0:T:-> Using app.config
+2019-06-23T14:46:12.6702248+01:00:Thread#0:T:https://api.github.com  tttttttttttttttttoooooooo
+2019-06-23T14:46:12.6791968+01:00:Thread#0:B:Given authenticated client is set for a retrieve repo issues request
+2019-06-23T14:46:12.7998770+01:00:Thread#0:T:done: IssueSteps.GivenAuthenticatedClientIsSetForARetrieveRepoIssuesRequest() (0.1s)
+2019-06-23T14:46:12.8018683+01:00:Thread#0:B:When I send the get request
+2019-06-23T14:46:16.0318740+01:00:Thread#0:T:done: IssueSteps.WhenISendTheGetRequest() (3.2s)
+2019-06-23T14:46:16.0318740+01:00:Thread#0:B:Then success response status should be 200
+2019-06-23T14:46:16.2682404+01:00:Thread#0:T:error: Expected httpsRequests.GetResponseStatus(httpsRequests.restResponse) to be OK, but found 0.
+2019-06-23T14:46:16.2692380+01:00:Thread#0:B:And response body
+2019-06-23T14:46:16.2702363+01:00:Thread#0:T:skipped because of previous errors
+2019-06-23T14:46:16.2861933+01:00:Thread#0:TestItem#6:Scheduler: reschedule tests for testitem #6
+2019-06-23T14:46:16.2871901+01:00:Thread#0:Scheduler: get next test for thread 0
+2019-06-23T14:46:16.2881880+01:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #6
+2019-06-23T14:46:16.2881880+01:00:Thread#0:Scheduler: considering testitem #6 for thread 0
+2019-06-23T14:46:16.2881880+01:00:Thread#0:TestItem#6:testItemMatchesCurrentTestThread:UnSpecific
+2019-06-23T14:46:16.2881880+01:00:Thread#0:TestItem#6:runsOnOneOtherThreadSpecific:False
+2019-06-23T14:46:16.2881880+01:00:Thread#0:TestItem#6:runsOnOneOtherThreadUnspecific:False
+2019-06-23T14:46:16.2881880+01:00:Thread#0:Scheduler: using testitem #6 for thread 0
+2019-06-23T14:46:16.2881880+01:00:Thread#0:Scheduler: Test #6 is scheduled for thread
+2019-06-23T14:46:16.2881880+01:00:Thread#0:Scheduler: with testItemExecutionIndex 1
+2019-06-23T14:46:16.3111268+01:00:Thread#0: Test #6/0 is finished on thread #0 as Failed within 4.4652303 seconds
+2019-06-23T14:46:16.3131212+01:00:Thread#0: Test #6/1 is started on thread #0
+2019-06-23T14:46:16.3141188+01:00:Thread#0:T:https://api.github.com  tttttttttttttttttoooooooo
+2019-06-23T14:46:16.3141188+01:00:Thread#0:B:Given authenticated client is set for a retrieve repo issues request
+2019-06-23T14:46:16.3151163+01:00:Thread#0:T:done: IssueSteps.GivenAuthenticatedClientIsSetForARetrieveRepoIssuesRequest() (0.0s)
+2019-06-23T14:46:16.3151163+01:00:Thread#0:B:When I send the get request
+2019-06-23T14:46:17.9858065+01:00:Thread#0:T:done: IssueSteps.WhenISendTheGetRequest() (1.7s)
+2019-06-23T14:46:17.9858065+01:00:Thread#0:B:Then success response status should be 200
+2019-06-23T14:46:17.9878409+01:00:Thread#0:T:error: Expected httpsRequests.GetResponseStatus(httpsRequests.restResponse) to be OK, but found 0.
+2019-06-23T14:46:17.9878409+01:00:Thread#0:B:And response body
+2019-06-23T14:46:17.9878409+01:00:Thread#0:T:skipped because of previous errors
+2019-06-23T14:46:17.9888000+01:00:Thread#0:Scheduler: get next test for thread 0
+2019-06-23T14:46:17.9888000+01:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #6
+2019-06-23T14:46:17.9888000+01:00:Thread#0:Scheduler: considering testitem #6 for thread 0
+2019-06-23T14:46:17.9888000+01:00:Thread#0:TestItem#6:testItemMatchesCurrentTestThread:UnSpecific
+2019-06-23T14:46:17.9888000+01:00:Thread#0:TestItem#6:runsOnOneOtherThreadSpecific:False
+2019-06-23T14:46:17.9888000+01:00:Thread#0:TestItem#6:runsOnOneOtherThreadUnspecific:False
+2019-06-23T14:46:17.9888000+01:00:Thread#0:Scheduler: using testitem #6 for thread 0
+2019-06-23T14:46:17.9888000+01:00:Thread#0:Scheduler: Test #6 is scheduled for thread
+2019-06-23T14:46:17.9888000+01:00:Thread#0:Scheduler: with testItemExecutionIndex 2
+2019-06-23T14:46:17.9898349+01:00:Thread#0: Test #6/1 is finished on thread #0 as Failed within 1.6767137 seconds
+2019-06-23T14:46:17.9898349+01:00:Thread#0: Test #6/2 is started on thread #0
+2019-06-23T14:46:17.9898349+01:00:Thread#0:T:https://api.github.com  tttttttttttttttttoooooooo
+2019-06-23T14:46:17.9898349+01:00:Thread#0:B:Given authenticated client is set for a retrieve repo issues request
+2019-06-23T14:46:17.9907932+01:00:Thread#0:T:done: IssueSteps.GivenAuthenticatedClientIsSetForARetrieveRepoIssuesRequest() (0.0s)
+2019-06-23T14:46:17.9907932+01:00:Thread#0:B:When I send the get request
+2019-06-23T14:46:19.9847440+01:00:Thread#0:T:done: IssueSteps.WhenISendTheGetRequest() (2.0s)
+2019-06-23T14:46:19.9859001+01:00:Thread#0:B:Then success response status should be 200
+2019-06-23T14:46:19.9887701+01:00:Thread#0:T:error: Expected httpsRequests.GetResponseStatus(httpsRequests.restResponse) to be OK, but found 0.
+2019-06-23T14:46:19.9887701+01:00:Thread#0:B:And response body
+2019-06-23T14:46:19.9887701+01:00:Thread#0:T:skipped because of previous errors
+2019-06-23T14:46:19.9887701+01:00:Thread#0:Scheduler: get next test for thread 0
+2019-06-23T14:46:19.9887701+01:00:Thread#:Scheduler: at the end of normal test queue
+2019-06-23T14:46:19.9887701+01:00:Thread#0:Scheduler: enumerator for thread is at end
+2019-06-23T14:46:19.9887701+01:00:Thread#0:Scheduler: No more tests for thread
+2019-06-23T14:46:19.9917247+01:00:Thread#0: Test #6/2 is finished on thread #0 as Failed within 2.0018898 seconds
+2019-06-23T14:46:20.0026961+01:00:Appdomain Disposed
+2019-06-23T14:46:20.0046893+01:00:Trying to cancel thread
+2019-06-23T14:46:20.0046893+01:00:Thread cancelled
+2019-06-23T14:46:20.0136655+01:00:Thread#-1:Scheduler: get next test for thread -1
+2019-06-23T14:46:20.0136655+01:00:Thread#:Scheduler: at the end of normal test queue
+2019-06-23T14:46:20.0136655+01:00:Thread#-1:Scheduler: enumerator for thread is at end
+2019-06-23T14:46:20.0206500+01:00;Thread#14;Info;test run finished
+2019-06-23T14:46:20.0206500+01:00;Thread#14;Info;publishing test results
+2019-06-23T14:46:20.0425901+01:00;Thread#14;Info;test results published
+2019-06-23T14:46:20.0425901+01:00;Thread#14;Info;generating reports
+2019-06-23T14:46:20.1732781+01:00;Thread#14;Info;Starting external report generation process
+2019-06-23T14:46:22.1562594+01:00;Thread#14;Info;Successfully generated reports.
+2019-06-23T14:46:22.1582549+01:00;Thread#14;Info;Successfully generated reports
+2019-06-23T14:46:22.1707449+01:00:Total: 1 (test executions: 3)
+2019-06-23T14:46:22.1747249+01:00:Succeeded: 0
+2019-06-23T14:46:22.1757229+01:00:Ignored: 0
+2019-06-23T14:46:22.1767201+01:00:Pending: 0
+2019-06-23T14:46:22.1767201+01:00:Skipped: 0
+2019-06-23T14:46:22.1777177+01:00:Failed: 1
+2019-06-23T14:46:22.1906823+01:00;VSTestExecutionThread;Info;Adding attachments to VSTest
+2019-06-23T14:46:22.1906823+01:00;VSTestExecutionThread;Info;adding Test Execution Report 'C:\Repos\TandemTest\IssuesTestSolution\TestResults\Unnamed project__2019-06-23T144603.html'
+========== End of log file ==========

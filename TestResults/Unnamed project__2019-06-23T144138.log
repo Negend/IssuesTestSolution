@@ -1,0 +1,129 @@
+﻿2019-06-23T14:41:38.6502318+01:00;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2019-06-23T14:41:38.6512287+01:00;VSTestExecutionThread;Info;SpecFlow+Runner 3.0.352 in Framework clr40 in x64 mode execution started
+2019-06-23T14:41:38.6512287+01:00;VSTestExecutionThread;Info;TestAdapter Location: C:\Repos\TandemTest\IssuesTestSolution\IssuesTestSolution\bin\Debug\TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2019-06-23T14:41:38.6911220+01:00;VSTestExecutionThread;Info;SpecRun: running tests in C:\Repos\TandemTest\IssuesTestSolution\IssuesTestSolution\bin\Debug\IssuesTestSolution.dll
+2019-06-23T14:41:38.6921195+01:00;VSTestExecutionThread;Info;Output folder configured to "C:\Repos\TandemTest\IssuesTestSolution\TestResults" (default)
+2019-06-23T14:41:38.6921195+01:00;VSTestExecutionThread;Info;Profile: 
+2019-06-23T14:41:38.7200458+01:00;VSTestExecutionThread;Info;Log file path: C:\Repos\TandemTest\IssuesTestSolution\TestResults\Unnamed project__2019-06-23T144138.log
+2019-06-23T14:41:38.7220406+01:00;VSTestExecutionThread;Error;Invalid project license: The test assembly name must contain the licensed project name
+2019-06-23T14:41:38.7350044+01:00;VSTestExecutionThread;Info;SpecFlow+Runner Evaluation Mode: Please purchase at http://www.specflow.org/plus to remove test execution delay.
+2019-06-23T14:41:38.7429857+01:00;Thread#13;Info;Checking license
+2019-06-23T14:41:38.7429857+01:00;Thread#13;Error;Invalid project license: The test assembly name must contain the licensed project name
+2019-06-23T14:41:38.7449786+01:00;Thread#13;Error;Invalid project license: The test assembly name must contain the licensed project name
+2019-06-23T14:41:38.7659211+01:00;Thread#13;Info;Evaluation mode: test execution starts in 8 seconds... (this delay is removed in the registered version)
+2019-06-23T14:41:46.7666993+01:00;Thread#13;Info;Evaluation delay finished.
+2019-06-23T14:41:46.7736868+01:00;Thread#13;Info;License check completed
+2019-06-23T14:41:46.7736868+01:00;Thread#13;Info;starting test run
+2019-06-23T14:41:46.7826608+01:00;Thread#13;Info;Discovering target: Default
+2019-06-23T14:41:46.7826608+01:00;Thread#13;Info;Discovering tests from assembly: C:\Repos\TandemTest\IssuesTestSolution\IssuesTestSolution\bin\Debug\IssuesTestSolution.dll
+2019-06-23T14:41:47.2738894+01:00:Appdomain Disposed
+2019-06-23T14:41:47.2738894+01:00;Thread#13;Info;Discovered tests from assembly: C:\Repos\TandemTest\IssuesTestSolution\IssuesTestSolution\bin\Debug\IssuesTestSolution.dll
+2019-06-23T14:41:47.2748307+01:00:Test Suite Dump
+2019-06-23T14:41:47.2768855+01:00:#0: Unnamed project/ - 
+2019-06-23T14:41:47.2768855+01:00:#1: Default - 
+2019-06-23T14:41:47.2768855+01:00:#2: IssuesTestSolution - 
+2019-06-23T14:41:47.2768855+01:00:#3: Issues - 
+2019-06-23T14:41:47.3227601+01:00:#5: An authenticated client can edit an issue - TestAssembly:IssuesTestSolution/Feature:Issues/Scenario:An+authenticated+client+can+edit+an+issue
+2019-06-23T14:41:47.3227601+01:00:End: Test Suite Dump
+2019-06-23T14:41:47.3546566+01:00:Thread#0:Scheduler: get next test for thread 0
+2019-06-23T14:41:47.3566125+01:00:Thread#:Scheduler: testitem #5 from normal test queue 
+2019-06-23T14:41:47.3566125+01:00:Thread#0:Scheduler: considering testitem #5 for thread 0
+2019-06-23T14:41:47.3606005+01:00:Thread#0:TestItem#5:testItemMatchesCurrentTestThread:UnSpecific
+2019-06-23T14:41:47.3606005+01:00:Thread#0:TestItem#5:runsOnOneOtherThreadSpecific:False
+2019-06-23T14:41:47.3606005+01:00:Thread#0:TestItem#5:runsOnOneOtherThreadUnspecific:False
+2019-06-23T14:41:47.3606005+01:00:Thread#0:Scheduler: using testitem #5 for thread 0
+2019-06-23T14:41:47.3635939+01:00:Thread#0:Scheduler: Test #5 is scheduled for thread
+2019-06-23T14:41:47.3645904+01:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2019-06-23T14:41:47.3675819+01:00:Thread #0: creating new test thread executor for IssuesTestSolution, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+2019-06-23T14:41:47.3695771+01:00:Thread #0: Creating test assembly executor for execution model AppDomain
+2019-06-23T14:41:47.3705743+01:00:Thread #0: Creating test assembly executor for execution model AppDomain
+2019-06-23T14:41:47.3705743+01:00:using TechTalk.SpecRun.Framework.Execution.InProcess.InProcAppDomainTestAssemblyExecutorHost to execute tests
+2019-06-23T14:41:47.4433817+01:00:Thread#0: Test #5/0 is started on thread #0
+2019-06-23T14:41:47.8877461+01:00:Thread#0:T:-> Loading plugin C:\Repos\TandemTest\IssuesTestSolution\IssuesTestSolution\bin\Debug\SpecRun.Runtime.SpecFlowPlugin.dll
+2019-06-23T14:41:47.8946849+01:00:Thread#0:T:-> Using app.config
+2019-06-23T14:41:48.1380339+01:00:Thread#0:T:https://api.github.com  tttttttttttttttttoooooooo
+2019-06-23T14:41:48.1470109+01:00:Thread#0:B:Given authenticated client is set for an edit issue request
+2019-06-23T14:41:48.2676880+01:00:Thread#0:T:done: IssueSteps.GivenAuthenticatedClientIsSetForAnEditIssueRequest() (0.0s)
+2019-06-23T14:41:48.2776645+01:00:Thread#0:B:When I send a patch request with the following request body
+2019-06-23T14:41:48.2776645+01:00:Thread#0:B:  --- table step argument ---
+2019-06-23T14:41:48.2786582+01:00:Thread#0:B:  | key | value |
+2019-06-23T14:41:48.2796577+01:00:Thread#0:B:  | hi  | ho    |
+2019-06-23T14:41:52.0992983+01:00:Thread#0:T:done: IssueSteps.WhenISendAPutRequestWithTheFollowingRequestBody(<table>) (3.8s)
+2019-06-23T14:41:52.1002966+01:00:Thread#0:B:Then success response status should be 200
+2019-06-23T14:41:52.3983582+01:00:Thread#0:T:error: Expected httpsRequests.GetResponseStatus(httpsRequests.restResponse) to be OK, but found 0.
+2019-06-23T14:41:52.3993561+01:00:Thread#0:B:And response body
+2019-06-23T14:41:52.4003530+01:00:Thread#0:T:skipped because of previous errors
+2019-06-23T14:41:52.4138862+01:00:Thread#0:TestItem#5:Scheduler: reschedule tests for testitem #5
+2019-06-23T14:41:52.4148260+01:00:Thread#0:Scheduler: get next test for thread 0
+2019-06-23T14:41:52.4148260+01:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #5
+2019-06-23T14:41:52.4148260+01:00:Thread#0:Scheduler: considering testitem #5 for thread 0
+2019-06-23T14:41:52.4148260+01:00:Thread#0:TestItem#5:testItemMatchesCurrentTestThread:UnSpecific
+2019-06-23T14:41:52.4148260+01:00:Thread#0:TestItem#5:runsOnOneOtherThreadSpecific:False
+2019-06-23T14:41:52.4148260+01:00:Thread#0:TestItem#5:runsOnOneOtherThreadUnspecific:False
+2019-06-23T14:41:52.4148260+01:00:Thread#0:Scheduler: using testitem #5 for thread 0
+2019-06-23T14:41:52.4148260+01:00:Thread#0:Scheduler: Test #5 is scheduled for thread
+2019-06-23T14:41:52.4148260+01:00:Thread#0:Scheduler: with testItemExecutionIndex 1
+2019-06-23T14:41:52.4387605+01:00:Thread#0: Test #5/0 is finished on thread #0 as Failed within 4.9943824 seconds
+2019-06-23T14:41:52.4417543+01:00:Thread#0: Test #5/1 is started on thread #0
+2019-06-23T14:41:52.4427508+01:00:Thread#0:T:https://api.github.com  tttttttttttttttttoooooooo
+2019-06-23T14:41:52.4427508+01:00:Thread#0:B:Given authenticated client is set for an edit issue request
+2019-06-23T14:41:52.4437483+01:00:Thread#0:T:done: IssueSteps.GivenAuthenticatedClientIsSetForAnEditIssueRequest() (0.0s)
+2019-06-23T14:41:52.4437483+01:00:Thread#0:B:When I send a patch request with the following request body
+2019-06-23T14:41:52.4437483+01:00:Thread#0:B:  --- table step argument ---
+2019-06-23T14:41:52.4437483+01:00:Thread#0:B:  | key | value |
+2019-06-23T14:41:52.4437483+01:00:Thread#0:B:  | hi  | ho    |
+2019-06-23T14:41:54.0311154+01:00:Thread#0:T:done: IssueSteps.WhenISendAPutRequestWithTheFollowingRequestBody(<table>) (1.6s)
+2019-06-23T14:41:54.0311154+01:00:Thread#0:B:Then success response status should be 200
+2019-06-23T14:41:54.0341520+01:00:Thread#0:T:error: Expected httpsRequests.GetResponseStatus(httpsRequests.restResponse) to be OK, but found 0.
+2019-06-23T14:41:54.0341520+01:00:Thread#0:B:And response body
+2019-06-23T14:41:54.0341520+01:00:Thread#0:T:skipped because of previous errors
+2019-06-23T14:41:54.0351114+01:00:Thread#0:Scheduler: get next test for thread 0
+2019-06-23T14:41:54.0351114+01:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #5
+2019-06-23T14:41:54.0351114+01:00:Thread#0:Scheduler: considering testitem #5 for thread 0
+2019-06-23T14:41:54.0351114+01:00:Thread#0:TestItem#5:testItemMatchesCurrentTestThread:UnSpecific
+2019-06-23T14:41:54.0351114+01:00:Thread#0:TestItem#5:runsOnOneOtherThreadSpecific:False
+2019-06-23T14:41:54.0351114+01:00:Thread#0:TestItem#5:runsOnOneOtherThreadUnspecific:False
+2019-06-23T14:41:54.0351114+01:00:Thread#0:Scheduler: using testitem #5 for thread 0
+2019-06-23T14:41:54.0351114+01:00:Thread#0:Scheduler: Test #5 is scheduled for thread
+2019-06-23T14:41:54.0351114+01:00:Thread#0:Scheduler: with testItemExecutionIndex 2
+2019-06-23T14:41:54.0351114+01:00:Thread#0: Test #5/1 is finished on thread #0 as Failed within 1.5933571 seconds
+2019-06-23T14:41:54.0361078+01:00:Thread#0: Test #5/2 is started on thread #0
+2019-06-23T14:41:54.0361078+01:00:Thread#0:T:https://api.github.com  tttttttttttttttttoooooooo
+2019-06-23T14:41:54.0361078+01:00:Thread#0:B:Given authenticated client is set for an edit issue request
+2019-06-23T14:41:54.0361078+01:00:Thread#0:T:done: IssueSteps.GivenAuthenticatedClientIsSetForAnEditIssueRequest() (0.0s)
+2019-06-23T14:41:54.0371054+01:00:Thread#0:B:When I send a patch request with the following request body
+2019-06-23T14:41:54.0381052+01:00:Thread#0:B:  --- table step argument ---
+2019-06-23T14:41:54.0381052+01:00:Thread#0:B:  | key | value |
+2019-06-23T14:41:54.0390998+01:00:Thread#0:B:  | hi  | ho    |
+2019-06-23T14:41:56.0315463+01:00:Thread#0:T:done: IssueSteps.WhenISendAPutRequestWithTheFollowingRequestBody(<table>) (2.0s)
+2019-06-23T14:41:56.0315463+01:00:Thread#0:B:Then success response status should be 200
+2019-06-23T14:41:56.0334466+01:00:Thread#0:T:error: Expected httpsRequests.GetResponseStatus(httpsRequests.restResponse) to be OK, but found 0.
+2019-06-23T14:41:56.0334466+01:00:Thread#0:B:And response body
+2019-06-23T14:41:56.0334466+01:00:Thread#0:T:skipped because of previous errors
+2019-06-23T14:41:56.0334466+01:00:Thread#0:Scheduler: get next test for thread 0
+2019-06-23T14:41:56.0334466+01:00:Thread#:Scheduler: at the end of normal test queue
+2019-06-23T14:41:56.0334466+01:00:Thread#0:Scheduler: enumerator for thread is at end
+2019-06-23T14:41:56.0334466+01:00:Thread#0:Scheduler: No more tests for thread
+2019-06-23T14:41:56.0354406+01:00:Thread#0: Test #5/2 is finished on thread #0 as Failed within 1.9993328 seconds
+2019-06-23T14:41:56.1388940+01:00:Appdomain Disposed
+2019-06-23T14:41:56.1408918+01:00:Trying to cancel thread
+2019-06-23T14:41:56.1408918+01:00:Thread cancelled
+2019-06-23T14:41:56.1498646+01:00:Thread#-1:Scheduler: get next test for thread -1
+2019-06-23T14:41:56.1498646+01:00:Thread#:Scheduler: at the end of normal test queue
+2019-06-23T14:41:56.1498646+01:00:Thread#-1:Scheduler: enumerator for thread is at end
+2019-06-23T14:41:56.1558493+01:00;Thread#13;Info;test run finished
+2019-06-23T14:41:56.1558493+01:00;Thread#13;Info;publishing test results
+2019-06-23T14:41:56.1818367+01:00;Thread#13;Info;test results published
+2019-06-23T14:41:56.1818367+01:00;Thread#13;Info;generating reports
+2019-06-23T14:41:56.3188676+01:00;Thread#13;Info;Starting external report generation process
+2019-06-23T14:41:58.2695744+01:00;Thread#13;Info;Successfully generated reports.
+2019-06-23T14:41:58.2705724+01:00;Thread#13;Info;Successfully generated reports
+2019-06-23T14:41:58.2835389+01:00:Total: 1 (test executions: 3)
+2019-06-23T14:41:58.2865301+01:00:Succeeded: 0
+2019-06-23T14:41:58.2875284+01:00:Ignored: 0
+2019-06-23T14:41:58.2885233+01:00:Pending: 0
+2019-06-23T14:41:58.2885233+01:00:Skipped: 0
+2019-06-23T14:41:58.2885233+01:00:Failed: 1
+2019-06-23T14:41:58.3024859+01:00;VSTestExecutionThread;Info;Adding attachments to VSTest
+2019-06-23T14:41:58.3034846+01:00;VSTestExecutionThread;Info;adding Test Execution Report 'C:\Repos\TandemTest\IssuesTestSolution\TestResults\Unnamed project__2019-06-23T144138.html'
+========== End of log file ==========

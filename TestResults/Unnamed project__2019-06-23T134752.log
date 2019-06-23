@@ -1,0 +1,126 @@
+﻿2019-06-23T13:47:52.2874517+01:00;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2019-06-23T13:47:52.2874517+01:00;VSTestExecutionThread;Info;SpecFlow+Runner 3.0.352 in Framework clr40 in x64 mode execution started
+2019-06-23T13:47:52.2874517+01:00;VSTestExecutionThread;Info;TestAdapter Location: C:\Repos\TandemTest\IssuesTestSolution\IssuesTestSolution\bin\Debug\TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2019-06-23T13:47:52.3193675+01:00;VSTestExecutionThread;Info;SpecRun: running tests in C:\Repos\TandemTest\IssuesTestSolution\IssuesTestSolution\bin\Debug\IssuesTestSolution.dll
+2019-06-23T13:47:52.3203647+01:00;VSTestExecutionThread;Info;Output folder configured to "C:\Repos\TandemTest\IssuesTestSolution\TestResults" (default)
+2019-06-23T13:47:52.3203647+01:00;VSTestExecutionThread;Info;Profile: 
+2019-06-23T13:47:52.3503239+01:00;VSTestExecutionThread;Info;Log file path: C:\Repos\TandemTest\IssuesTestSolution\TestResults\Unnamed project__2019-06-23T134752.log
+2019-06-23T13:47:52.3522801+01:00;VSTestExecutionThread;Error;Invalid project license: The test assembly name must contain the licensed project name
+2019-06-23T13:47:52.3632911+01:00;VSTestExecutionThread;Info;SpecFlow+Runner Evaluation Mode: Please purchase at http://www.specflow.org/plus to remove test execution delay.
+2019-06-23T13:47:52.3702329+01:00;Thread#13;Info;Checking license
+2019-06-23T13:47:52.3712290+01:00;Thread#13;Error;Invalid project license: The test assembly name must contain the licensed project name
+2019-06-23T13:47:52.3722285+01:00;Thread#13;Error;Invalid project license: The test assembly name must contain the licensed project name
+2019-06-23T13:47:52.3941674+01:00;Thread#13;Info;Evaluation mode: test execution starts in 11 seconds... (this delay is removed in the registered version)
+2019-06-23T13:48:03.3952737+01:00;Thread#13;Info;Evaluation delay finished.
+2019-06-23T13:48:03.4032913+01:00;Thread#13;Info;License check completed
+2019-06-23T13:48:03.4032913+01:00;Thread#13;Info;starting test run
+2019-06-23T13:48:03.4241968+01:00;Thread#13;Info;Discovering target: Default
+2019-06-23T13:48:03.4241968+01:00;Thread#13;Info;Discovering tests from assembly: C:\Repos\TandemTest\IssuesTestSolution\IssuesTestSolution\bin\Debug\IssuesTestSolution.dll
+2019-06-23T13:48:04.2542390+01:00:Appdomain Disposed
+2019-06-23T13:48:04.2542390+01:00;Thread#13;Info;Discovered tests from assembly: C:\Repos\TandemTest\IssuesTestSolution\IssuesTestSolution\bin\Debug\IssuesTestSolution.dll
+2019-06-23T13:48:04.2562333+01:00:Test Suite Dump
+2019-06-23T13:48:04.2582304+01:00:#0: Unnamed project/ - 
+2019-06-23T13:48:04.2582304+01:00:#1: Default - 
+2019-06-23T13:48:04.2582304+01:00:#2: IssuesTestSolution - 
+2019-06-23T13:48:04.2582304+01:00:#3: Issues - 
+2019-06-23T13:48:04.3113360+01:00:#4: An authenticated client can create an issue - TestAssembly:IssuesTestSolution/Feature:Issues/Scenario:An+authenticated+client+can+create+an+issue
+2019-06-23T13:48:04.3113360+01:00:End: Test Suite Dump
+2019-06-23T13:48:04.3422534+01:00:Thread#0:Scheduler: get next test for thread 0
+2019-06-23T13:48:04.3452480+01:00:Thread#:Scheduler: testitem #4 from normal test queue 
+2019-06-23T13:48:04.3452480+01:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2019-06-23T13:48:04.3502310+01:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2019-06-23T13:48:04.3502310+01:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2019-06-23T13:48:04.3502310+01:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+2019-06-23T13:48:04.3502310+01:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2019-06-23T13:48:04.3512285+01:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2019-06-23T13:48:04.3522257+01:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2019-06-23T13:48:04.3552177+01:00:Thread #0: creating new test thread executor for IssuesTestSolution, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+2019-06-23T13:48:04.3572121+01:00:Thread #0: Creating test assembly executor for execution model AppDomain
+2019-06-23T13:48:04.3582096+01:00:Thread #0: Creating test assembly executor for execution model AppDomain
+2019-06-23T13:48:04.3582096+01:00:using TechTalk.SpecRun.Framework.Execution.InProcess.InProcAppDomainTestAssemblyExecutorHost to execute tests
+2019-06-23T13:48:04.4200445+01:00:Thread#0: Test #4/0 is started on thread #0
+2019-06-23T13:48:04.8507088+01:00:Thread#0:T:-> Loading plugin C:\Repos\TandemTest\IssuesTestSolution\IssuesTestSolution\bin\Debug\SpecRun.Runtime.SpecFlowPlugin.dll
+2019-06-23T13:48:04.8576903+01:00:Thread#0:T:-> Using app.config
+2019-06-23T13:48:05.0173017+01:00:Thread#0:B:Given authenticated client is set for a create issue request
+2019-06-23T13:48:05.2105521+01:00:Thread#0:T:error: Exception has been thrown by the target of an invocation.
+2019-06-23T13:48:05.2195279+01:00:Thread#0:B:When I send a post request with the following request body
+2019-06-23T13:48:05.2195279+01:00:Thread#0:B:  --- table step argument ---
+2019-06-23T13:48:05.2195279+01:00:Thread#0:B:  | key | value |
+2019-06-23T13:48:05.2195279+01:00:Thread#0:B:  | hi  | ho    |
+2019-06-23T13:48:05.2225206+01:00:Thread#0:T:skipped because of previous errors
+2019-06-23T13:48:05.2235186+01:00:Thread#0:B:Then success response status should be 201
+2019-06-23T13:48:05.2265117+01:00:Thread#0:T:skipped because of previous errors
+2019-06-23T13:48:05.2265117+01:00:Thread#0:B:And response body
+2019-06-23T13:48:05.2265117+01:00:Thread#0:T:skipped because of previous errors
+2019-06-23T13:48:05.2714634+01:00:Thread#0:TestItem#4:Scheduler: reschedule tests for testitem #4
+2019-06-23T13:48:05.2724606+01:00:Thread#0:Scheduler: get next test for thread 0
+2019-06-23T13:48:05.2724606+01:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2019-06-23T13:48:05.2724606+01:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2019-06-23T13:48:05.2724606+01:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2019-06-23T13:48:05.2724606+01:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2019-06-23T13:48:05.2724606+01:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+2019-06-23T13:48:05.2724606+01:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2019-06-23T13:48:05.2724606+01:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2019-06-23T13:48:05.2724606+01:00:Thread#0:Scheduler: with testItemExecutionIndex 1
+2019-06-23T13:48:05.2894725+01:00:Thread#0: Test #4/0 is finished on thread #0 as Failed within 0.8684308 seconds
+2019-06-23T13:48:05.2924082+01:00:Thread#0: Test #4/1 is started on thread #0
+2019-06-23T13:48:05.2924082+01:00:Thread#0:B:Given authenticated client is set for a create issue request
+2019-06-23T13:48:05.2944034+01:00:Thread#0:T:error: Exception has been thrown by the target of an invocation.
+2019-06-23T13:48:05.2944034+01:00:Thread#0:B:When I send a post request with the following request body
+2019-06-23T13:48:05.2944034+01:00:Thread#0:B:  --- table step argument ---
+2019-06-23T13:48:05.2944034+01:00:Thread#0:B:  | key | value |
+2019-06-23T13:48:05.2944034+01:00:Thread#0:B:  | hi  | ho    |
+2019-06-23T13:48:05.2954009+01:00:Thread#0:T:skipped because of previous errors
+2019-06-23T13:48:05.2954009+01:00:Thread#0:B:Then success response status should be 201
+2019-06-23T13:48:05.2954009+01:00:Thread#0:T:skipped because of previous errors
+2019-06-23T13:48:05.2954009+01:00:Thread#0:B:And response body
+2019-06-23T13:48:05.2954009+01:00:Thread#0:T:skipped because of previous errors
+2019-06-23T13:48:05.2963981+01:00:Thread#0:Scheduler: get next test for thread 0
+2019-06-23T13:48:05.2963981+01:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2019-06-23T13:48:05.2963981+01:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2019-06-23T13:48:05.2963981+01:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2019-06-23T13:48:05.2963981+01:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2019-06-23T13:48:05.2963981+01:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+2019-06-23T13:48:05.2963981+01:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2019-06-23T13:48:05.2963981+01:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2019-06-23T13:48:05.2963981+01:00:Thread#0:Scheduler: with testItemExecutionIndex 2
+2019-06-23T13:48:05.2963981+01:00:Thread#0: Test #4/1 is finished on thread #0 as Failed within 0.0039899 seconds
+2019-06-23T13:48:05.2973972+01:00:Thread#0: Test #4/2 is started on thread #0
+2019-06-23T13:48:05.2973972+01:00:Thread#0:B:Given authenticated client is set for a create issue request
+2019-06-23T13:48:05.2983952+01:00:Thread#0:T:error: Exception has been thrown by the target of an invocation.
+2019-06-23T13:48:05.2983952+01:00:Thread#0:B:When I send a post request with the following request body
+2019-06-23T13:48:05.3009616+01:00:Thread#0:B:  --- table step argument ---
+2019-06-23T13:48:05.3009616+01:00:Thread#0:B:  | key | value |
+2019-06-23T13:48:05.3019591+01:00:Thread#0:B:  | hi  | ho    |
+2019-06-23T13:48:05.3019591+01:00:Thread#0:T:skipped because of previous errors
+2019-06-23T13:48:05.3019591+01:00:Thread#0:B:Then success response status should be 201
+2019-06-23T13:48:05.3019591+01:00:Thread#0:T:skipped because of previous errors
+2019-06-23T13:48:05.3019591+01:00:Thread#0:B:And response body
+2019-06-23T13:48:05.3019591+01:00:Thread#0:T:skipped because of previous errors
+2019-06-23T13:48:05.3029571+01:00:Thread#0:Scheduler: get next test for thread 0
+2019-06-23T13:48:05.3029571+01:00:Thread#:Scheduler: at the end of normal test queue
+2019-06-23T13:48:05.3029571+01:00:Thread#0:Scheduler: enumerator for thread is at end
+2019-06-23T13:48:05.3029571+01:00:Thread#0:Scheduler: No more tests for thread
+2019-06-23T13:48:05.3039539+01:00:Thread#0: Test #4/2 is finished on thread #0 as Failed within 0.0065567 seconds
+2019-06-23T13:48:05.3119326+01:00:Appdomain Disposed
+2019-06-23T13:48:05.3139266+01:00:Trying to cancel thread
+2019-06-23T13:48:05.3139266+01:00:Thread cancelled
+2019-06-23T13:48:05.3209099+01:00:Thread#-1:Scheduler: get next test for thread -1
+2019-06-23T13:48:05.3209099+01:00:Thread#:Scheduler: at the end of normal test queue
+2019-06-23T13:48:05.3209099+01:00:Thread#-1:Scheduler: enumerator for thread is at end
+2019-06-23T13:48:05.3268942+01:00;Thread#13;Info;test run finished
+2019-06-23T13:48:05.3268942+01:00;Thread#13;Info;publishing test results
+2019-06-23T13:48:05.3518251+01:00;Thread#13;Info;test results published
+2019-06-23T13:48:05.3518251+01:00;Thread#13;Info;generating reports
+2019-06-23T13:48:05.4951201+01:00;Thread#13;Info;Starting external report generation process
+2019-06-23T13:48:07.2591215+01:00;Thread#13;Info;Successfully generated reports.
+2019-06-23T13:48:07.2611162+01:00;Thread#13;Info;Successfully generated reports
+2019-06-23T13:48:07.2740850+01:00:Total: 1 (test executions: 3)
+2019-06-23T13:48:07.2760775+01:00:Succeeded: 0
+2019-06-23T13:48:07.2770735+01:00:Ignored: 0
+2019-06-23T13:48:07.2770735+01:00:Pending: 0
+2019-06-23T13:48:07.2780719+01:00:Skipped: 0
+2019-06-23T13:48:07.2780719+01:00:Failed: 1
+2019-06-23T13:48:07.2930309+01:00;VSTestExecutionThread;Info;Adding attachments to VSTest
+2019-06-23T13:48:07.2930309+01:00;VSTestExecutionThread;Info;adding Test Execution Report 'C:\Repos\TandemTest\IssuesTestSolution\TestResults\Unnamed project__2019-06-23T134752.html'
+========== End of log file ==========

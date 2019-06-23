@@ -17,39 +17,43 @@ namespace IssuesTestSolution
         public RestClient client;
         public RestRequest restRequest;
         public IRestResponse restResponse;
-        //public static string baseUrl = "https://api.github.com";
+        private readonly string personalToken;
+        private string Token => "token " + personalToken;
 
         public HttpRequests(IGithubSettings settings)
         {
             Settings = settings;
             client = new RestClient(Settings.BaseUrl);
-        }
+            personalToken = Settings.GitToken;
 
+            //Resolves certificate issue
+            ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls12;
+        }
+        
         public RestRequest CreateGetRequest()
         {
             restRequest = new RestRequest(Resource("IssueList"), Method.GET);
-            restRequest.AddHeader("Authorization", Settings.GitToken);
+            restRequest.AddHeader("Authorization", Token);
             return restRequest;
         }
 
         public RestRequest CreatePostRequest()
         {
             restRequest = new RestRequest(Resource("Create"), Method.POST);
-            restRequest.AddHeader("Authorization", Settings.GitToken);
+            restRequest.AddHeader("Authorization", Token);
             return restRequest;
         }
 
-        public RestRequest CreatePatchRequest()
+        public RestRequest CreatePatchRequest(int issue)
         {
-            restRequest = new RestRequest(Resource("Edit"), Method.PATCH);
-            restRequest.AddHeader("Authorization", Settings.GitToken);
+            restRequest = new RestRequest(Resource("Edit",issue), Method.PATCH);
+            restRequest.AddHeader("Authorization", Token);
 
             return restRequest;
         }
 
-        public void AddJsonBody(object obj)
+        public void AddJsonBody(List<JsonValues> body)
         {
-            object body = obj;
             restRequest.AddJsonBody(body);
         }
 

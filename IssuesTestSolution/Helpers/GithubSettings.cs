@@ -13,5 +13,6 @@ namespace IssuesTestSolution.Helpers
         public string GitToken => ConfigurationManager.AppSettings[nameof(GitToken)];
         public string GithubRepo => ConfigurationManager.AppSettings[nameof(GithubRepo)];
         public string GitUser => ConfigurationManager.AppSettings[nameof(GitUser)];
+
     }
 }

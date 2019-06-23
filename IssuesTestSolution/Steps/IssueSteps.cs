@@ -12,11 +12,10 @@ namespace IssuesTestSolution.Steps
     [Binding]
     public sealed class IssueSteps
     {
-
-        private readonly ScenarioContext context;
+        
         private HttpRequests httpsRequests;
 
-        public IssueSteps(ScenarioContext injectedContext, IGithubSettings settings)
+        public IssueSteps(IGithubSettings settings)
         {
             httpsRequests = new HttpRequests(settings);
         }
@@ -27,9 +26,9 @@ namespace IssuesTestSolution.Steps
         }
 
         [When(@"I send a post request with the following request body")]
-        public void WhenISendAPostRequestWithTheFollowingRequestBody(Table table)
+        public void WhenISendAPostRequestWithTheFollowingRequestBody(List<JsonValues> body)
         {
-            httpsRequests.AddJsonBody(table);
+            httpsRequests.AddJsonBody(body);
             httpsRequests.SendRequest();
         }
 
@@ -57,19 +56,19 @@ namespace IssuesTestSolution.Steps
         [Then(@"response body")]
         public void ThenResponseBody()
         {
-            ScenarioContext.Current.Pending();
+           
         }
 
-        [Given(@"authenticated client is set for an edit issue request")]
-        public void GivenAuthenticatedClientIsSetForAnEditIssueRequest()
+        [Given(@"authenticated client is set for an edit issue (.*) request")]
+        public void GivenAuthenticatedClientIsSetForAnEditIssueRequest(int issue)
         {
-            httpsRequests.CreatePatchRequest();
+            httpsRequests.CreatePatchRequest(issue);
         }
 
         [When(@"I send a patch request with the following request body")]
-        public void WhenISendAPutRequestWithTheFollowingRequestBody(Table table)
+        public void WhenISendAPutRequestWithTheFollowingRequestBody(List<JsonValues> body)
         {
-            httpsRequests.AddJsonBody(table);
+            httpsRequests.AddJsonBody(body);
             httpsRequests.SendRequest();
         }
 
@@ -85,5 +84,17 @@ namespace IssuesTestSolution.Steps
              httpsRequests.SendRequest();
         }
 
+
+        [StepArgumentTransformation(@"(.*) body")]
+        private List<JsonValues> UserTableTransform(Table table)
+        {
+            List<JsonValues> body = new List<JsonValues>();
+            foreach (var row in table.Rows)
+            {
+                body.Add(new JsonValues(row["name"], row["value"]));
+            }
+                return body;
+        }
+        
     }
 }
