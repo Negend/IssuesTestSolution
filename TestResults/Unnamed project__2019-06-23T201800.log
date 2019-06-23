@@ -1,0 +1,128 @@
+﻿2019-06-23T20:17:59.9287530+01:00;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2019-06-23T20:17:59.9287530+01:00;VSTestExecutionThread;Info;SpecFlow+Runner 3.0.352 in Framework clr40 in x64 mode execution started
+2019-06-23T20:17:59.9287530+01:00;VSTestExecutionThread;Info;TestAdapter Location: C:\Repos\TandemTest\IssuesTestSolution\IssuesTestSolution\bin\Debug\TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2019-06-23T20:18:00.0045505+01:00;VSTestExecutionThread;Info;SpecRun: running tests in C:\Repos\TandemTest\IssuesTestSolution\IssuesTestSolution\bin\Debug\IssuesTestSolution.dll
+2019-06-23T20:18:00.0065445+01:00;VSTestExecutionThread;Info;Output folder configured to "C:\Repos\TandemTest\IssuesTestSolution\TestResults" (default)
+2019-06-23T20:18:00.0075421+01:00;VSTestExecutionThread;Info;Profile: 
+2019-06-23T20:18:00.0599480+01:00;VSTestExecutionThread;Info;Log file path: C:\Repos\TandemTest\IssuesTestSolution\TestResults\Unnamed project__2019-06-23T201800.log
+2019-06-23T20:18:00.0639372+01:00;VSTestExecutionThread;Error;Invalid project license: The test assembly name must contain the licensed project name
+2019-06-23T20:18:00.0798941+01:00;VSTestExecutionThread;Info;SpecFlow+Runner Evaluation Mode: Please purchase at http://www.specflow.org/plus to remove test execution delay.
+2019-06-23T20:18:00.0978466+01:00;Thread#13;Info;Checking license
+2019-06-23T20:18:00.0988449+01:00;Thread#13;Error;Invalid project license: The test assembly name must contain the licensed project name
+2019-06-23T20:18:00.1008393+01:00;Thread#13;Error;Invalid project license: The test assembly name must contain the licensed project name
+2019-06-23T20:18:00.1437238+01:00;Thread#13;Info;Evaluation mode: test execution starts in 12 seconds... (this delay is removed in the registered version)
+2019-06-23T20:18:12.1453553+01:00;Thread#13;Info;Evaluation delay finished.
+2019-06-23T20:18:12.1553284+01:00;Thread#13;Info;License check completed
+2019-06-23T20:18:12.1553284+01:00;Thread#13;Info;starting test run
+2019-06-23T20:18:12.1989072+01:00;Thread#13;Info;Discovering target: Default
+2019-06-23T20:18:12.1989072+01:00;Thread#13;Info;Discovering tests from assembly: C:\Repos\TandemTest\IssuesTestSolution\IssuesTestSolution\bin\Debug\IssuesTestSolution.dll
+2019-06-23T20:18:12.6932664+01:00:Appdomain Disposed
+2019-06-23T20:18:12.6942643+01:00;Thread#13;Info;Discovered tests from assembly: C:\Repos\TandemTest\IssuesTestSolution\IssuesTestSolution\bin\Debug\IssuesTestSolution.dll
+2019-06-23T20:18:12.6972563+01:00:Test Suite Dump
+2019-06-23T20:18:12.7012454+01:00:#0: Unnamed project/ - 
+2019-06-23T20:18:12.7012454+01:00:#1: Default - 
+2019-06-23T20:18:12.7012454+01:00:#2: IssuesTestSolution - 
+2019-06-23T20:18:12.7012454+01:00:#3: IssueTests - 
+2019-06-23T20:18:13.1632745+01:00:#4: An authenticated client can create an issue - TestAssembly:IssuesTestSolution/Feature:IssueTests/Scenario:An+authenticated+client+can+create+an+issue
+2019-06-23T20:18:13.1632745+01:00:#5: An authenticated client can edit an issue - TestAssembly:IssuesTestSolution/Feature:IssueTests/Scenario:An+authenticated+client+can+edit+an+issue
+2019-06-23T20:18:13.1632745+01:00:#6: An authenticated client can list issues for a repo - TestAssembly:IssuesTestSolution/Feature:IssueTests/Scenario:An+authenticated+client+can+list+issues+for+a+repo
+2019-06-23T20:18:13.1642721+01:00:End: Test Suite Dump
+2019-06-23T20:18:13.3393058+01:00:Thread#0:Scheduler: get next test for thread 0
+2019-06-23T20:18:13.3436495+01:00:Thread#:Scheduler: testitem #4 from normal test queue 
+2019-06-23T20:18:13.3436495+01:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2019-06-23T20:18:13.3771892+01:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2019-06-23T20:18:13.3771892+01:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2019-06-23T20:18:13.3771892+01:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+2019-06-23T20:18:13.3771892+01:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2019-06-23T20:18:13.3801242+01:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2019-06-23T20:18:13.3811217+01:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2019-06-23T20:18:13.3841129+01:00:Thread #0: creating new test thread executor for IssuesTestSolution, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+2019-06-23T20:18:13.3871604+01:00:Thread #0: Creating test assembly executor for execution model AppDomain
+2019-06-23T20:18:13.3881047+01:00:Thread #0: Creating test assembly executor for execution model AppDomain
+2019-06-23T20:18:13.3881047+01:00:using TechTalk.SpecRun.Framework.Execution.InProcess.InProcAppDomainTestAssemblyExecutorHost to execute tests
+2019-06-23T20:18:15.4276695+01:00:Thread#0: Test #4/0 is started on thread #0
+2019-06-23T20:18:16.2962921+01:00:Thread#0:T:-> Loading plugin C:\Repos\TandemTest\IssuesTestSolution\IssuesTestSolution\bin\Debug\SpecRun.Runtime.SpecFlowPlugin.dll
+2019-06-23T20:18:16.4854523+01:00:Thread#0:T:-> Using app.config
+2019-06-23T20:18:16.8125536+01:00:Thread#0:B:Given authenticated client is set for a create issue request
+2019-06-23T20:18:17.0569383+01:00:Thread#0:T:done: IssueSteps.GivenAuthenticatedClientIsSetForACreateIssueRequest() (0.2s)
+2019-06-23T20:18:17.0669133+01:00:Thread#0:B:When I send a post request with the following request body
+2019-06-23T20:18:17.0679086+01:00:Thread#0:B:  --- table step argument ---
+2019-06-23T20:18:17.0679086+01:00:Thread#0:B:  | name   | value                              |
+2019-06-23T20:18:17.0679086+01:00:Thread#0:B:  | title  | Hi                                 |
+2019-06-23T20:18:17.0679086+01:00:Thread#0:B:  | body   | Thus issue was menerated by a test |
+2019-06-23T20:18:17.0679086+01:00:Thread#0:B:  | labels | bug                                |
+2019-06-23T20:18:20.8313315+01:00:Thread#0:T:done: IssueSteps.WhenISendAPostRequestWithTheFollowingRequestBody(IssuesTestSolutio...) (3.4s)
+2019-06-23T20:18:20.8322871+01:00:Thread#0:B:Then success response status should be 201
+2019-06-23T20:18:20.9011031+01:00:Thread#0:T:done: IssueSteps.ThenResponseStatusShouldBeOk(201) (0.1s)
+2019-06-23T20:18:20.9011031+01:00:Thread#0:B:And response body
+2019-06-23T20:18:20.9021030+01:00:Thread#0:T:done: IssueSteps.ThenResponseBody() (0.0s)
+2019-06-23T20:18:20.9671349+01:00:Thread#0:Scheduler: get next test for thread 0
+2019-06-23T20:18:20.9671349+01:00:Thread#:Scheduler: testitem #5 from normal test queue 
+2019-06-23T20:18:20.9671349+01:00:Thread#0:Scheduler: considering testitem #5 for thread 0
+2019-06-23T20:18:20.9671349+01:00:Thread#0:TestItem#5:testItemMatchesCurrentTestThread:UnSpecific
+2019-06-23T20:18:20.9671349+01:00:Thread#0:TestItem#5:runsOnOneOtherThreadSpecific:False
+2019-06-23T20:18:20.9671349+01:00:Thread#0:TestItem#5:runsOnOneOtherThreadUnspecific:False
+2019-06-23T20:18:20.9671349+01:00:Thread#0:Scheduler: using testitem #5 for thread 0
+2019-06-23T20:18:20.9671349+01:00:Thread#0:Scheduler: Test #5 is scheduled for thread
+2019-06-23T20:18:20.9671349+01:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2019-06-23T20:18:21.0207857+01:00:Thread#0: Test #4/0 is finished on thread #0 as Succeeded within 5.5931162 seconds
+2019-06-23T20:18:21.0227808+01:00:Thread#0: Test #5/0 is started on thread #0
+2019-06-23T20:18:21.0237780+01:00:Thread#0:B:Given authenticated client is set for an edit issue 1 request
+2019-06-23T20:18:21.0267711+01:00:Thread#0:T:done: IssueSteps.GivenAuthenticatedClientIsSetForAnEditIssueRequest(1) (0.0s)
+2019-06-23T20:18:21.0277679+01:00:Thread#0:B:When I send a patch request with the following request body
+2019-06-23T20:18:21.0287655+01:00:Thread#0:B:  --- table step argument ---
+2019-06-23T20:18:21.0287655+01:00:Thread#0:B:  | name   | value                              |
+2019-06-23T20:18:21.0287655+01:00:Thread#0:B:  | title  | Hello                              |
+2019-06-23T20:18:21.0287655+01:00:Thread#0:B:  | body   | This issue was generated by a test |
+2019-06-23T20:18:21.0287655+01:00:Thread#0:B:  | labels | bug,Document                       |
+2019-06-23T20:18:21.4963726+01:00:Thread#0:T:done: IssueSteps.WhenISendAPutRequestWithTheFollowingRequestBody(IssuesTestSolutio...) (0.5s)
+2019-06-23T20:18:21.4963726+01:00:Thread#0:B:Then success response status should be 200
+2019-06-23T20:18:21.4963726+01:00:Thread#0:T:done: IssueSteps.ThenResponseStatusShouldBeOk(200) (0.0s)
+2019-06-23T20:18:21.4963726+01:00:Thread#0:B:And response body
+2019-06-23T20:18:21.4963726+01:00:Thread#0:T:done: IssueSteps.ThenResponseBody() (0.0s)
+2019-06-23T20:18:21.4963726+01:00:Thread#0:Scheduler: get next test for thread 0
+2019-06-23T20:18:21.4963726+01:00:Thread#:Scheduler: testitem #6 from normal test queue 
+2019-06-23T20:18:21.4963726+01:00:Thread#0:Scheduler: considering testitem #6 for thread 0
+2019-06-23T20:18:21.4963726+01:00:Thread#0:TestItem#6:testItemMatchesCurrentTestThread:UnSpecific
+2019-06-23T20:18:21.4963726+01:00:Thread#0:TestItem#6:runsOnOneOtherThreadSpecific:False
+2019-06-23T20:18:21.4963726+01:00:Thread#0:TestItem#6:runsOnOneOtherThreadUnspecific:False
+2019-06-23T20:18:21.4963726+01:00:Thread#0:Scheduler: using testitem #6 for thread 0
+2019-06-23T20:18:21.4963726+01:00:Thread#0:Scheduler: Test #6 is scheduled for thread
+2019-06-23T20:18:21.4963726+01:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2019-06-23T20:18:21.4973710+01:00:Thread#0: Test #5/0 is finished on thread #0 as Succeeded within 0.4745902 seconds
+2019-06-23T20:18:21.4973710+01:00:Thread#0: Test #6/0 is started on thread #0
+2019-06-23T20:18:21.4983685+01:00:Thread#0:B:Given authenticated client is set for a retrieve repo issues request
+2019-06-23T20:18:21.4993657+01:00:Thread#0:T:done: IssueSteps.GivenAuthenticatedClientIsSetForARetrieveRepoIssuesRequest() (0.0s)
+2019-06-23T20:18:21.4993657+01:00:Thread#0:B:When I send the get request
+2019-06-23T20:18:21.7409722+01:00:Thread#0:T:done: IssueSteps.WhenISendTheGetRequest() (0.2s)
+2019-06-23T20:18:21.7409722+01:00:Thread#0:B:Then success response status should be 200
+2019-06-23T20:18:21.7409722+01:00:Thread#0:T:done: IssueSteps.ThenResponseStatusShouldBeOk(200) (0.0s)
+2019-06-23T20:18:21.7409722+01:00:Thread#0:B:And response body
+2019-06-23T20:18:21.7419686+01:00:Thread#0:T:done: IssueSteps.ThenResponseBody() (0.0s)
+2019-06-23T20:18:21.7419686+01:00:Thread#0:Scheduler: get next test for thread 0
+2019-06-23T20:18:21.7419686+01:00:Thread#:Scheduler: at the end of normal test queue
+2019-06-23T20:18:21.7419686+01:00:Thread#0:Scheduler: enumerator for thread is at end
+2019-06-23T20:18:21.7419686+01:00:Thread#0:Scheduler: No more tests for thread
+2019-06-23T20:18:21.7449610+01:00:Thread#0: Test #6/0 is finished on thread #0 as Succeeded within 0.24759 seconds
+2019-06-23T20:18:21.7688981+01:00:Appdomain Disposed
+2019-06-23T20:18:21.7708913+01:00:Trying to cancel thread
+2019-06-23T20:18:21.7708913+01:00:Thread cancelled
+2019-06-23T20:18:21.7880312+01:00:Thread#-1:Scheduler: get next test for thread -1
+2019-06-23T20:18:21.7880312+01:00:Thread#:Scheduler: at the end of normal test queue
+2019-06-23T20:18:21.7880312+01:00:Thread#-1:Scheduler: enumerator for thread is at end
+2019-06-23T20:18:21.7930183+01:00;Thread#13;Info;test run finished
+2019-06-23T20:18:21.7930183+01:00;Thread#13;Info;publishing test results
+2019-06-23T20:18:21.9611812+01:00;Thread#13;Info;test results published
+2019-06-23T20:18:21.9611812+01:00;Thread#13;Info;generating reports
+2019-06-23T20:18:22.2786682+01:00;Thread#13;Info;Starting external report generation process
+2019-06-23T20:18:26.0291929+01:00;Thread#13;Info;Successfully generated reports.
+2019-06-23T20:18:26.0321830+01:00;Thread#13;Info;Successfully generated reports
+2019-06-23T20:18:26.0461440+01:00:Total: 3
+2019-06-23T20:18:26.0491390+01:00:Succeeded: 3
+2019-06-23T20:18:26.0501351+01:00:Ignored: 0
+2019-06-23T20:18:26.0501351+01:00:Pending: 0
+2019-06-23T20:18:26.0501351+01:00:Skipped: 0
+2019-06-23T20:18:26.0511319+01:00:Failed: 0
+2019-06-23T20:18:26.0690851+01:00;VSTestExecutionThread;Info;Adding attachments to VSTest
+2019-06-23T20:18:26.0690851+01:00;VSTestExecutionThread;Info;adding Test Execution Report 'C:\Repos\TandemTest\IssuesTestSolution\TestResults\Unnamed project__2019-06-23T201800.html'
+========== End of log file ==========

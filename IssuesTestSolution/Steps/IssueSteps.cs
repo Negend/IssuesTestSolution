@@ -44,10 +44,6 @@ namespace IssuesTestSolution.Steps
             {
                 httpsRequests.GetResponseStatus(httpsRequests.restResponse).Should().Be(HttpStatusCode.Created);
             }
-            else if (code == 202)
-            {
-                httpsRequests.GetResponseStatus(httpsRequests.restResponse).Should().Be(HttpStatusCode.Accepted);
-            }
             else
             {
                 throw new Exception("wrong code tested in feature file");
