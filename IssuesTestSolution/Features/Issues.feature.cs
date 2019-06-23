@@ -82,7 +82,7 @@ this.ScenarioSetup(scenarioInfo);
 #line 7
  testRunner.When("I send a post request with the following request body", ((string)(null)), table1, "When ");
 #line 10
- testRunner.Then("response status should be 200 ok", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("success response status should be 201", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 11
  testRunner.And("response body", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
@@ -106,9 +106,9 @@ this.ScenarioSetup(scenarioInfo);
                         "hi",
                         "ho"});
 #line 16
- testRunner.When("I send a put request with the following request body", ((string)(null)), table2, "When ");
+ testRunner.When("I send a patch request with the following request body", ((string)(null)), table2, "When ");
 #line 19
- testRunner.Then("response status should be 200 ok", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("success response status should be 200", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 20
  testRunner.And("response body", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
@@ -127,7 +127,7 @@ this.ScenarioSetup(scenarioInfo);
 #line 26
  testRunner.When("I send the get request", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line 27
- testRunner.Then("response status should be 200 ok", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("success response status should be 200", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 28
  testRunner.And("response body", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden

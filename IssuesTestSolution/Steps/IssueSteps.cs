@@ -3,7 +3,9 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using FluentAssertions;
 using TechTalk.SpecFlow;
+using System.Net;
 
 namespace IssuesTestSolution.Steps
 {
@@ -28,15 +30,30 @@ namespace IssuesTestSolution.Steps
         public void WhenISendAPostRequestWithTheFollowingRequestBody(Table table)
         {
             httpsRequests.AddJsonBody(table);
-            httpsRequests.GetResponse();
+            httpsRequests.SendRequest();
         }
 
-        [Then(@"response status should be (.*) ok")]
-        public void ThenResponseStatusShouldBeOk(int p0)
+        [Then(@"success response status should be (.*)")]
+        public void ThenResponseStatusShouldBeOk(int code)
         {
-            ScenarioContext.Current.Pending();
+            if (code == 200)
+            {
+                httpsRequests.GetResponseStatus(httpsRequests.restResponse).Should().Be(HttpStatusCode.OK);
+            }
+            else if (code == 201)
+            {
+                httpsRequests.GetResponseStatus(httpsRequests.restResponse).Should().Be(HttpStatusCode.Created);
+            }
+            else if (code == 202)
+            {
+                httpsRequests.GetResponseStatus(httpsRequests.restResponse).Should().Be(HttpStatusCode.Accepted);
+            }
+            else
+            {
+                throw new Exception("wrong code tested in feature file");
+            }
         }
-
+         
         [Then(@"response body")]
         public void ThenResponseBody()
         {
@@ -49,10 +66,11 @@ namespace IssuesTestSolution.Steps
             httpsRequests.CreatePatchRequest();
         }
 
-        [When(@"I send a put request with the following request body")]
+        [When(@"I send a patch request with the following request body")]
         public void WhenISendAPutRequestWithTheFollowingRequestBody(Table table)
         {
-            ScenarioContext.Current.Pending();
+            httpsRequests.AddJsonBody(table);
+            httpsRequests.SendRequest();
         }
 
         [Given(@"authenticated client is set for a retrieve repo issues request")]
@@ -64,7 +82,7 @@ namespace IssuesTestSolution.Steps
         [When(@"I send the get request")]
         public void WhenISendTheGetRequest()
         {
-            ScenarioContext.Current.Pending();
+             httpsRequests.SendRequest();
         }
 
     }

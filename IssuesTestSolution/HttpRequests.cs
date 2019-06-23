@@ -7,14 +7,16 @@ using System.Text;
 using System.Threading.Tasks;
 using IssuesTestSolution.Helpers;
 using BoDi;
+using System.Net;
 
 namespace IssuesTestSolution
 {
     public class HttpRequests
     {
         IGithubSettings Settings { get; set; }
-        public  RestClient client;
-        public  RestRequest restRequest;
+        public RestClient client;
+        public RestRequest restRequest;
+        public IRestResponse restResponse;
         //public static string baseUrl = "https://api.github.com";
 
         public HttpRequests(IGithubSettings settings)
@@ -25,7 +27,7 @@ namespace IssuesTestSolution
 
         public RestRequest CreateGetRequest()
         {
-            restRequest = new RestRequest(Resource("IssueList"),Method.GET);
+            restRequest = new RestRequest(Resource("IssueList"), Method.GET);
             restRequest.AddHeader("Authorization", Settings.GitToken);
             return restRequest;
         }
@@ -36,13 +38,12 @@ namespace IssuesTestSolution
             restRequest.AddHeader("Authorization", Settings.GitToken);
             return restRequest;
         }
-        
 
         public RestRequest CreatePatchRequest()
         {
             restRequest = new RestRequest(Resource("Edit"), Method.PATCH);
             restRequest.AddHeader("Authorization", Settings.GitToken);
-            
+
             return restRequest;
         }
 
@@ -52,9 +53,14 @@ namespace IssuesTestSolution
             restRequest.AddJsonBody(body);
         }
 
-        public  IRestResponse GetResponse()
+        public IRestResponse SendRequest()
         {
-            return client.Execute(restRequest);
+            return restResponse = client.Execute(restRequest);
+        }
+
+        public HttpStatusCode GetResponseStatus(IRestResponse response)
+        {
+            return response.StatusCode;
         }
 
         string Resource(string type, int issueNumber = 0)
