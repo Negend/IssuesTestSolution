@@ -73,7 +73,7 @@ this.ScenarioSetup(scenarioInfo);
 #line 6
  testRunner.Given("client is authenticated", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 7
- testRunner.And("following endpoint is set to", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+ testRunner.And("following endpoint is set for a create issue request", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
             TechTalk.SpecFlow.Table table1 = new TechTalk.SpecFlow.Table(new string[] {
                         "key",
@@ -101,7 +101,7 @@ this.ScenarioSetup(scenarioInfo);
 #line 16
  testRunner.Given("client is authenticated", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 17
- testRunner.And("following endpoint is set to", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+ testRunner.And("following endpoint is set for an edit issue request", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
             TechTalk.SpecFlow.Table table2 = new TechTalk.SpecFlow.Table(new string[] {
                         "key",
@@ -129,7 +129,7 @@ this.ScenarioSetup(scenarioInfo);
 #line 27
  testRunner.Given("client is authenticated", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 28
- testRunner.And("following endpoint is set to", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+ testRunner.And("following endpoint is set for a retrieve repo issues request", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line 29
  testRunner.When("I send the get request", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line 30

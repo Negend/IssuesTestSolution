@@ -22,11 +22,6 @@ namespace IssuesTestSolution.Steps
             ScenarioContext.Current.Pending();
         }
 
-        [Given(@"following endpoint is set to (.*)")]
-        public void GivenFollowingEndpointIsSetTo()
-        {
-            ScenarioContext.Current.Pending();
-        }
 
         [When(@"I send a post request with the following request body")]
         public void WhenISendAPostRequestWithTheFollowingRequestBody(Table table)
@@ -54,6 +49,23 @@ namespace IssuesTestSolution.Steps
 
         [When(@"I send the get request")]
         public void WhenISendTheGetRequest()
+        {
+            ScenarioContext.Current.Pending();
+        }
+        [Given(@"following endpoint is set for a create issue request")]
+        public void GivenFollowingEndpointIsSetForACreateIssueRequest()
+        {
+            ScenarioContext.Current.Pending();
+        }
+
+        [Given(@"following endpoint is set for an edit issue request")]
+        public void GivenFollowingEndpointIsSetForAnEditIssueRequest()
+        {
+            ScenarioContext.Current.Pending();
+        }
+
+        [Given(@"following endpoint is set for a retrieve repo issues request")]
+        public void GivenFollowingEndpointIsSetForARetrieveRepoIssuesRequest()
         {
             ScenarioContext.Current.Pending();
         }
