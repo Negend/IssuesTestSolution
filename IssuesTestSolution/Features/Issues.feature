@@ -30,4 +30,4 @@ Scenario: An authenticated client can list issues for a repo
 	And the first issue created has title Hello
 	When I send the get request
 	Then success response status should be 200
-	And  response body contains a list of issues
+	And  response body contains a list of issues with first issue 1 appearing last
