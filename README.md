@@ -44,6 +44,6 @@ For users using visual studio 17
 * have token and any other personal information set as an environment variable. so security data is not shared in project during work
 * create a given step for the edit scenario that ensures an issue already exists(the last to be created) so that the same issue is not being updated
 * by default the list of paramaters is in correct order. in future this will be passed as an aption paramater for the test
-
+* remove test resulsts and .vs from repository
 #### For more information or in the event that the solution fails to load, run or files are unable to clone. [Click here](https://drive.google.com/file/d/11iY5OUBoUv0mC-OpSLLM0OXfCyGS4veZ/view?usp=sharing "Video Presentation") for a brief demo on the Test Framework
 
