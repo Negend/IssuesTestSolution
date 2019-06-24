@@ -30,6 +30,13 @@ For users using visual studio 17
 * build solution
 * open test explorer and click Run All to discover and run the tests
 
+## Test Flow
+ Due to dependencies test must be run in order for the first time or the initial issue should exist with title 'Hello'.
+ * Scenario 1 creates a new issue
+ * Scenario 2 edits the first issue ever created
+ * Scenario 3  lists the issues in the current Repo verifies the order and the Title of the first issue
+ * each test verifies response status code and response content
+
 ## Improvements to be made
 * A bit more testing on the headers and body of the response of all requests made. 
 * Allow flexible optional parameters in the json body input by the IssueDetails.cs model
