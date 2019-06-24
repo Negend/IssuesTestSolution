@@ -9,6 +9,7 @@ using IssuesTestSolution.Helpers;
 using BoDi;
 using System.Net;
 using IssuesTestSolution.Steps.model;
+using Newtonsoft.Json;
 
 namespace IssuesTestSolution
 {
@@ -63,9 +64,23 @@ namespace IssuesTestSolution
             return restResponse = client.Execute(restRequest);
         }
 
-        public HttpStatusCode GetResponseStatus(IRestResponse response)
+        public HttpStatusCode GetResponseStatus()
         {
-            return response.StatusCode;
+            return restResponse.StatusCode;
+        }
+
+        public IssueResponse GetResponseIssueInfo()
+        {
+            return JsonConvert.DeserializeObject<IssueResponse>(restResponse.Content);
+        }
+        public List<IssueResponse> GetResponseIssues()
+        {
+            return JsonConvert.DeserializeObject<List<IssueResponse>>(restResponse.Content);
+        }
+
+        public object GetIssueNumber()
+        {
+            return restResponse.Content;
         }
 
         string Resource(string type, int issueNumber = 0)
