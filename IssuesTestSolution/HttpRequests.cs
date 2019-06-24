@@ -36,6 +36,8 @@ namespace IssuesTestSolution
         {
             restRequest = new RestRequest(Resource("IssueList"), Method.GET);
             restRequest.AddHeader("Authorization", Token);
+            restRequest.AddQueryParameter("sort", "updated");
+            restRequest.AddQueryParameter("direction", "asc");
             return restRequest;
         }
 
@@ -50,7 +52,6 @@ namespace IssuesTestSolution
         {
             restRequest = new RestRequest(Resource("Edit",issue), Method.PATCH);
             restRequest.AddHeader("Authorization", Token);
-
             return restRequest;
         }
 

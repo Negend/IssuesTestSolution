@@ -1,0 +1,80 @@
+﻿2019-06-24T03:29:47.8283520+01:00;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2019-06-24T03:29:47.8283520+01:00;VSTestExecutionThread;Info;SpecFlow+Runner 3.0.352 in Framework clr40 in x64 mode execution started
+2019-06-24T03:29:47.8283520+01:00;VSTestExecutionThread;Info;TestAdapter Location: C:\Repos\TandemTest\IssuesTestSolution\IssuesTestSolution\bin\Debug\TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2019-06-24T03:29:47.8662887+01:00;VSTestExecutionThread;Info;SpecRun: running tests in C:\Repos\TandemTest\IssuesTestSolution\IssuesTestSolution\bin\Debug\IssuesTestSolution.dll
+2019-06-24T03:29:47.8662887+01:00;VSTestExecutionThread;Info;Output folder configured to "C:\Repos\TandemTest\IssuesTestSolution\TestResults" (default)
+2019-06-24T03:29:47.8662887+01:00;VSTestExecutionThread;Info;Profile: 
+2019-06-24T03:29:47.8986843+01:00;VSTestExecutionThread;Info;Log file path: C:\Repos\TandemTest\IssuesTestSolution\TestResults\Unnamed project__2019-06-24T032947.log
+2019-06-24T03:29:47.9016725+01:00;VSTestExecutionThread;Error;Invalid project license: The test assembly name must contain the licensed project name
+2019-06-24T03:29:47.9126450+01:00;VSTestExecutionThread;Info;SpecFlow+Runner Evaluation Mode: Please purchase at http://www.specflow.org/plus to remove test execution delay.
+2019-06-24T03:29:47.9196250+01:00;Thread#13;Info;Checking license
+2019-06-24T03:29:47.9196250+01:00;Thread#13;Error;Invalid project license: The test assembly name must contain the licensed project name
+2019-06-24T03:29:47.9216201+01:00;Thread#13;Error;Invalid project license: The test assembly name must contain the licensed project name
+2019-06-24T03:29:47.9425630+01:00;Thread#13;Info;Evaluation mode: test execution starts in 9 seconds... (this delay is removed in the registered version)
+2019-06-24T03:29:56.9437766+01:00;Thread#13;Info;Evaluation delay finished.
+2019-06-24T03:29:56.9707442+01:00;Thread#13;Info;License check completed
+2019-06-24T03:29:56.9707442+01:00;Thread#13;Info;starting test run
+2019-06-24T03:29:56.9976317+01:00;Thread#13;Info;Discovering target: Default
+2019-06-24T03:29:57.0006233+01:00;Thread#13;Info;Discovering tests from assembly: C:\Repos\TandemTest\IssuesTestSolution\IssuesTestSolution\bin\Debug\IssuesTestSolution.dll
+2019-06-24T03:29:57.5476644+01:00:Appdomain Disposed
+2019-06-24T03:29:57.5476644+01:00;Thread#13;Info;Discovered tests from assembly: C:\Repos\TandemTest\IssuesTestSolution\IssuesTestSolution\bin\Debug\IssuesTestSolution.dll
+2019-06-24T03:29:57.5486038+01:00:Test Suite Dump
+2019-06-24T03:29:57.5506518+01:00:#0: Unnamed project/ - 
+2019-06-24T03:29:57.5506518+01:00:#1: Default - 
+2019-06-24T03:29:57.5506518+01:00:#2: IssuesTestSolution - 
+2019-06-24T03:29:57.5506518+01:00:#3: IssueTests - 
+2019-06-24T03:29:57.5914906+01:00:#6: An authenticated client can list issues for a repo - TestAssembly:IssuesTestSolution/Feature:IssueTests/Scenario:An+authenticated+client+can+list+issues+for+a+repo
+2019-06-24T03:29:57.5914906+01:00:End: Test Suite Dump
+2019-06-24T03:29:57.6194134+01:00:Thread#0:Scheduler: get next test for thread 0
+2019-06-24T03:29:57.6224054+01:00:Thread#:Scheduler: testitem #6 from normal test queue 
+2019-06-24T03:29:57.6224054+01:00:Thread#0:Scheduler: considering testitem #6 for thread 0
+2019-06-24T03:29:57.6264527+01:00:Thread#0:TestItem#6:testItemMatchesCurrentTestThread:UnSpecific
+2019-06-24T03:29:57.6264527+01:00:Thread#0:TestItem#6:runsOnOneOtherThreadSpecific:False
+2019-06-24T03:29:57.6264527+01:00:Thread#0:TestItem#6:runsOnOneOtherThreadUnspecific:False
+2019-06-24T03:29:57.6264527+01:00:Thread#0:Scheduler: using testitem #6 for thread 0
+2019-06-24T03:29:57.6284036+01:00:Thread#0:Scheduler: Test #6 is scheduled for thread
+2019-06-24T03:29:57.6293880+01:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2019-06-24T03:29:57.6324181+01:00:Thread #0: creating new test thread executor for IssuesTestSolution, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+2019-06-24T03:29:57.6344159+01:00:Thread #0: Creating test assembly executor for execution model AppDomain
+2019-06-24T03:29:57.6353715+01:00:Thread #0: Creating test assembly executor for execution model AppDomain
+2019-06-24T03:29:57.6353715+01:00:using TechTalk.SpecRun.Framework.Execution.InProcess.InProcAppDomainTestAssemblyExecutorHost to execute tests
+2019-06-24T03:29:57.7051843+01:00:Thread#0: Test #6/0 is started on thread #0
+2019-06-24T03:29:58.1380654+01:00:Thread#0:T:-> Loading plugin C:\Repos\TandemTest\IssuesTestSolution\IssuesTestSolution\bin\Debug\SpecRun.Runtime.SpecFlowPlugin.dll
+2019-06-24T03:29:58.1450083+01:00:Thread#0:T:-> Using app.config
+2019-06-24T03:29:58.3295155+01:00:Thread#0:B:Given authenticated client is set for a retrieve repo issues request
+2019-06-24T03:29:58.5150202+01:00:Thread#0:T:done: IssueSteps.GivenAuthenticatedClientIsSetForARetrieveRepoIssuesRequest() (0.1s)
+2019-06-24T03:29:58.5170135+01:00:Thread#0:B:And the first issue created has title Hello
+2019-06-24T03:29:58.5219998+01:00:Thread#0:T:done: IssueSteps.GivenTheFirstIssueCreatedHasTitleHello("Hello") (0.0s)
+2019-06-24T03:29:58.5229970+01:00:Thread#0:B:When I send the get request
+2019-06-24T03:29:59.5499521+01:00:Thread#0:T:done: IssueSteps.WhenISendTheGetRequest() (1.0s)
+2019-06-24T03:29:59.5499521+01:00:Thread#0:B:Then success response status should be 200
+2019-06-24T03:29:59.5579293+01:00:Thread#0:T:done: IssueSteps.ThenResponseStatusShouldBeOk(200) (0.0s)
+2019-06-24T03:29:59.5579293+01:00:Thread#0:B:And response body contains a list of issues with first issue 1 appearing last
+2019-06-24T03:29:59.7923848+01:00:Thread#0:T:done: IssueSteps.ThenResponseBodyContainsAListOfIssues(1) (0.2s)
+2019-06-24T03:29:59.8043125+01:00:Thread#0:Scheduler: get next test for thread 0
+2019-06-24T03:29:59.8043125+01:00:Thread#:Scheduler: at the end of normal test queue
+2019-06-24T03:29:59.8043125+01:00:Thread#0:Scheduler: enumerator for thread is at end
+2019-06-24T03:29:59.8043125+01:00:Thread#0:Scheduler: No more tests for thread
+2019-06-24T03:29:59.8242817+01:00:Thread#0: Test #6/0 is finished on thread #0 as Succeeded within 2.1181002 seconds
+2019-06-24T03:29:59.8393924+01:00:Appdomain Disposed
+2019-06-24T03:29:59.8413797+01:00:Trying to cancel thread
+2019-06-24T03:29:59.8413797+01:00:Thread cancelled
+2019-06-24T03:29:59.8631566+01:00:Thread#-1:Scheduler: get next test for thread -1
+2019-06-24T03:29:59.8631566+01:00:Thread#:Scheduler: at the end of normal test queue
+2019-06-24T03:29:59.8631566+01:00:Thread#-1:Scheduler: enumerator for thread is at end
+2019-06-24T03:29:59.8651491+01:00;Thread#13;Info;test run finished
+2019-06-24T03:29:59.8661459+01:00;Thread#13;Info;publishing test results
+2019-06-24T03:29:59.8880875+01:00;Thread#13;Info;test results published
+2019-06-24T03:29:59.8890844+01:00;Thread#13;Info;generating reports
+2019-06-24T03:30:00.0127081+01:00;Thread#13;Info;Starting external report generation process
+2019-06-24T03:30:01.7981531+01:00;Thread#13;Info;Successfully generated reports.
+2019-06-24T03:30:01.8001474+01:00;Thread#13;Info;Successfully generated reports
+2019-06-24T03:30:01.8121156+01:00:Total: 1
+2019-06-24T03:30:01.8151068+01:00:Succeeded: 1
+2019-06-24T03:30:01.8151068+01:00:Ignored: 0
+2019-06-24T03:30:01.8161040+01:00:Pending: 0
+2019-06-24T03:30:01.8161040+01:00:Skipped: 0
+2019-06-24T03:30:01.8171016+01:00:Failed: 0
+2019-06-24T03:30:01.8321014+01:00;VSTestExecutionThread;Info;Adding attachments to VSTest
+2019-06-24T03:30:01.8321014+01:00;VSTestExecutionThread;Info;adding Test Execution Report 'C:\Repos\TandemTest\IssuesTestSolution\TestResults\Unnamed project__2019-06-24T032947.html'
+========== End of log file ==========
