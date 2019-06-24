@@ -72,7 +72,6 @@ namespace IssuesTestSolution.Steps
         public void GivenAuthenticatedClientIsSetForAnEditIssueRequest(int issueNum)
         {
             httpsRequests.CreatePatchRequest(issueNum);
-            contextProperties.IssueNumber = issueNum;
         }
 
         [When(@"I send a patch request with the following request body")]
@@ -94,11 +93,11 @@ namespace IssuesTestSolution.Steps
              httpsRequests.SendRequest();
         }
 
-        [Then(@"response body contains a list of issues")]
-        public void ThenResponseBodyContainsAListOfIssues()
+        [Then(@"response body contains a list of issues with first issue (.*) appearing last")]
+        public void ThenResponseBodyContainsAListOfIssues(int issueNum)
         {
             httpsRequests.GetResponseIssues().Last().title.Should().Be(contextProperties.IssueTitle);
-            httpsRequests.GetResponseIssues().Last().number.Should().Be(contextProperties.IssueNumber);
+            httpsRequests.GetResponseIssues().Last().number.Should().Be(issueNum);
         }
 
 
