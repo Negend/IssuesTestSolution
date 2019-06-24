@@ -31,10 +31,10 @@ For users using visual studio 17
 * open test explorer and click Run All to discover and run the tests
 
 ## Test Flow
- Due to dependencies test must be run in order for the first time or the initial issue should exist with title 'Hello'.
+ Due to dependencies test must be run in order especially scenario 2 and 3.
  * Scenario 1 creates a new issue
  * Scenario 2 edits the first issue ever created
- * Scenario 3  lists the issues in the current Repo verifies the order and the Title of the first issue
+ * Scenario 3  lists the issues in the current Repo verifies the order and the Title of the issue edited in scenario 2
  * each test verifies response status code and response content
 
 ## Improvements to be made
