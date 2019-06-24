@@ -105,7 +105,6 @@
     <Compile Include="Steps\IssueSteps.cs" />
     <Compile Include="Steps\model\IssueDetails.cs" />
     <Compile Include="Steps\model\IssueResponse.cs" />
-    <Compile Include="Steps\StepDefinition1.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
