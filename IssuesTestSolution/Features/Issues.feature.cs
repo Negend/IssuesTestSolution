@@ -146,7 +146,8 @@ this.ScenarioInitialize(scenarioInfo);
 #line 32
  testRunner.Then("success response status should be 200", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 33
- testRunner.And("response body contains a list of issues with first issue 1 appearing last", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+ testRunner.And("response body contains a list of issues with recently updated issue 1 appearing l" +
+                    "ast", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
             this.ScenarioCleanup();
         }

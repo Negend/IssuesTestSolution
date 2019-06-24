@@ -93,7 +93,7 @@ namespace IssuesTestSolution.Steps
              httpsRequests.SendRequest();
         }
 
-        [Then(@"response body contains a list of issues with first issue (.*) appearing last")]
+        [Then(@"response body contains a list of issues with recently updated issue (.*) appearing last")]
         public void ThenResponseBodyContainsAListOfIssues(int issueNum)
         {
             httpsRequests.GetResponseIssues().Last().title.Should().Be(contextProperties.IssueTitle);
