@@ -95,15 +95,16 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Settings\GithubSettings.cs" />
+    <Compile Include="Helpers\ContextProperties.cs" />
+    <Compile Include="Helpers\GithubSettings.cs" />
     <Compile Include="Hooks\GlobalHooks.cs" />
     <Compile Include="HttpRequests.cs" />
-    <Compile Include="Settings\IGithubSettings.cs" />
-    <Compile Include="JsonValues.cs" />
+    <Compile Include="Helpers\IGithubSettings.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Registrations.cs" />
     <Compile Include="Steps\IssueSteps.cs" />
     <Compile Include="Steps\model\IssueDetails.cs" />
+    <Compile Include="Steps\model\IssueResponse.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

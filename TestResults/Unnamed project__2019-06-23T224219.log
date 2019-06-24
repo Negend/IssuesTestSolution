@@ -1,0 +1,13 @@
+﻿2019-06-23T22:42:19.0850111+01:00;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2019-06-23T22:42:19.0850111+01:00;VSTestExecutionThread;Info;SpecFlow+Runner 3.0.352 in Framework clr40 in x64 mode execution started
+2019-06-23T22:42:19.0850111+01:00;VSTestExecutionThread;Info;TestAdapter Location: C:\Repos\TandemTest\IssuesTestSolution\IssuesTestSolution\bin\Debug\TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2019-06-23T22:42:19.1737728+01:00;VSTestExecutionThread;Info;SpecRun: running tests in C:\Repos\TandemTest\IssuesTestSolution\IssuesTestSolution\bin\Debug\IssuesTestSolution.dll
+2019-06-23T22:42:19.1747708+01:00;VSTestExecutionThread;Info;Output folder configured to "C:\Repos\TandemTest\IssuesTestSolution\TestResults" (default)
+2019-06-23T22:42:19.1757679+01:00;VSTestExecutionThread;Info;Profile: 
+2019-06-23T22:42:19.2735059+01:00;VSTestExecutionThread;Info;Log file path: C:\Repos\TandemTest\IssuesTestSolution\TestResults\Unnamed project__2019-06-23T224219.log
+2019-06-23T22:42:19.2774954+01:00;VSTestExecutionThread;Error;Invalid project license: The test assembly name must contain the licensed project name
+2019-06-23T22:42:19.2944496+01:00;VSTestExecutionThread;Info;SpecFlow+Runner Evaluation Mode: Please purchase at http://www.specflow.org/plus to remove test execution delay.
+2019-06-23T22:42:19.3333449+01:00;Thread#14;Info;Checking license
+2019-06-23T22:42:19.3383316+01:00;Thread#14;Error;Invalid project license: The test assembly name must contain the licensed project name
+2019-06-23T22:42:19.3443163+01:00;Thread#14;Error;Invalid project license: The test assembly name must contain the licensed project name
+2019-06-23T22:42:19.4949133+01:00;Thread#14;Info;Evaluation mode: test execution starts in 13 seconds... (this delay is removed in the registered version)

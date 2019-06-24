@@ -17,7 +17,7 @@ namespace IssuesTestSolution.Steps
         private HttpRequests httpsRequests;
         private ContextProperties contextProperties;
 
-        public IssueSteps(IGithubSettings settings, ContextProperties _contextProperties)
+        public IssueSteps(IGithubSettings settings,ContextProperties _contextProperties)
         {
             httpsRequests = new HttpRequests(settings);
             contextProperties = _contextProperties;
@@ -69,10 +69,9 @@ namespace IssuesTestSolution.Steps
         }
 
         [Given(@"authenticated client is set for an edit issue (.*) request")]
-        public void GivenAuthenticatedClientIsSetForAnEditIssueRequest(int issueNum)
+        public void GivenAuthenticatedClientIsSetForAnEditIssueRequest(string issue)
         {
-            httpsRequests.CreatePatchRequest(issueNum);
-            contextProperties.IssueNumber = issueNum;
+            httpsRequests.CreatePatchRequest(contextProperties.IssueNumber);
         }
 
         [When(@"I send a patch request with the following request body")]
@@ -80,6 +79,8 @@ namespace IssuesTestSolution.Steps
         {        
             httpsRequests.AddJsonBody(body);
             httpsRequests.SendRequest();
+            contextProperties.IssueBody = body.body;
+            contextProperties.IssueTitle = body.title;
         }
 
         [Given(@"authenticated client is set for a retrieve repo issues request")]
@@ -98,7 +99,6 @@ namespace IssuesTestSolution.Steps
         public void ThenResponseBodyContainsAListOfIssues()
         {
             httpsRequests.GetResponseIssues().Last().title.Should().Be(contextProperties.IssueTitle);
-            httpsRequests.GetResponseIssues().Last().number.Should().Be(contextProperties.IssueNumber);
         }
 
 
@@ -113,9 +113,6 @@ namespace IssuesTestSolution.Steps
                     body.labels = row[1].Split(',');
                 }
             }
-
-            contextProperties.IssueBody = body.body;
-            contextProperties.IssueTitle = body.title;
             return body;
         }
 

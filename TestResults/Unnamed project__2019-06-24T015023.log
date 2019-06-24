@@ -1,0 +1,198 @@
+﻿2019-06-24T01:50:23.7393448+01:00;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2019-06-24T01:50:23.7393448+01:00;VSTestExecutionThread;Info;SpecFlow+Runner 3.0.352 in Framework clr40 in x64 mode execution started
+2019-06-24T01:50:23.7393448+01:00;VSTestExecutionThread;Info;TestAdapter Location: C:\Repos\TandemTest\IssuesTestSolution\IssuesTestSolution\bin\Debug\TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2019-06-24T01:50:23.8081612+01:00;VSTestExecutionThread;Info;SpecRun: running tests in C:\Repos\TandemTest\IssuesTestSolution\IssuesTestSolution\bin\Debug\IssuesTestSolution.dll
+2019-06-24T01:50:23.8081612+01:00;VSTestExecutionThread;Info;Output folder configured to "C:\Repos\TandemTest\IssuesTestSolution\TestResults" (default)
+2019-06-24T01:50:23.8091595+01:00;VSTestExecutionThread;Info;Profile: 
+2019-06-24T01:50:23.8949282+01:00;VSTestExecutionThread;Info;Log file path: C:\Repos\TandemTest\IssuesTestSolution\TestResults\Unnamed project__2019-06-24T015023.log
+2019-06-24T01:50:23.8979205+01:00;VSTestExecutionThread;Error;Invalid project license: The test assembly name must contain the licensed project name
+2019-06-24T01:50:23.9128799+01:00;VSTestExecutionThread;Info;SpecFlow+Runner Evaluation Mode: Please purchase at http://www.specflow.org/plus to remove test execution delay.
+2019-06-24T01:50:23.9637442+01:00;Thread#13;Info;Checking license
+2019-06-24T01:50:23.9647421+01:00;Thread#13;Error;Invalid project license: The test assembly name must contain the licensed project name
+2019-06-24T01:50:23.9657389+01:00;Thread#13;Error;Invalid project license: The test assembly name must contain the licensed project name
+2019-06-24T01:50:24.1532388+01:00;Thread#13;Info;Evaluation mode: test execution starts in 10 seconds... (this delay is removed in the registered version)
+2019-06-24T01:50:34.1595406+01:00;Thread#13;Info;Evaluation delay finished.
+2019-06-24T01:50:34.1733276+01:00;Thread#13;Info;License check completed
+2019-06-24T01:50:34.1733276+01:00;Thread#13;Info;starting test run
+2019-06-24T01:50:34.2115486+01:00;Thread#13;Info;Discovering target: Default
+2019-06-24T01:50:34.2125470+01:00;Thread#13;Info;Discovering tests from assembly: C:\Repos\TandemTest\IssuesTestSolution\IssuesTestSolution\bin\Debug\IssuesTestSolution.dll
+2019-06-24T01:50:34.8311555+01:00:Appdomain Disposed
+2019-06-24T01:50:34.8311555+01:00;Thread#13;Info;Discovered tests from assembly: C:\Repos\TandemTest\IssuesTestSolution\IssuesTestSolution\bin\Debug\IssuesTestSolution.dll
+2019-06-24T01:50:34.8321531+01:00:Test Suite Dump
+2019-06-24T01:50:34.8341478+01:00:#0: Unnamed project/ - 
+2019-06-24T01:50:34.8341478+01:00:#1: Default - 
+2019-06-24T01:50:34.8341478+01:00:#2: IssuesTestSolution - 
+2019-06-24T01:50:34.8341478+01:00:#3: IssueTests - 
+2019-06-24T01:50:34.8850125+01:00:#4: An authenticated client can create an issue - TestAssembly:IssuesTestSolution/Feature:IssueTests/Scenario:An+authenticated+client+can+create+an+issue
+2019-06-24T01:50:34.8850125+01:00:#5: An authenticated client can edit an issue - TestAssembly:IssuesTestSolution/Feature:IssueTests/Scenario:An+authenticated+client+can+edit+an+issue
+2019-06-24T01:50:34.8850125+01:00:#6: An authenticated client can list issues for a repo - TestAssembly:IssuesTestSolution/Feature:IssueTests/Scenario:An+authenticated+client+can+list+issues+for+a+repo
+2019-06-24T01:50:34.8850125+01:00:End: Test Suite Dump
+2019-06-24T01:50:34.9189548+01:00:Thread#0:Scheduler: get next test for thread 0
+2019-06-24T01:50:34.9209186+01:00:Thread#:Scheduler: testitem #4 from normal test queue 
+2019-06-24T01:50:34.9209186+01:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2019-06-24T01:50:34.9259045+01:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2019-06-24T01:50:34.9259045+01:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2019-06-24T01:50:34.9259045+01:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+2019-06-24T01:50:34.9259045+01:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2019-06-24T01:50:34.9269021+01:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2019-06-24T01:50:34.9288961+01:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2019-06-24T01:50:34.9318881+01:00:Thread #0: creating new test thread executor for IssuesTestSolution, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+2019-06-24T01:50:34.9338832+01:00:Thread #0: Creating test assembly executor for execution model AppDomain
+2019-06-24T01:50:34.9348800+01:00:Thread #0: Creating test assembly executor for execution model AppDomain
+2019-06-24T01:50:34.9348800+01:00:using TechTalk.SpecRun.Framework.Execution.InProcess.InProcAppDomainTestAssemblyExecutorHost to execute tests
+2019-06-24T01:50:35.0640810+01:00:Thread#0: Test #4/0 is started on thread #0
+2019-06-24T01:50:35.5667031+01:00:Thread#0:T:-> Loading plugin C:\Repos\TandemTest\IssuesTestSolution\IssuesTestSolution\bin\Debug\SpecRun.Runtime.SpecFlowPlugin.dll
+2019-06-24T01:50:35.5777349+01:00:Thread#0:T:-> Using app.config
+2019-06-24T01:50:35.7711564+01:00:Thread#0:B:Given authenticated client is set for a create issue request
+2019-06-24T01:50:35.9623403+01:00:Thread#0:T:done: IssueSteps.GivenAuthenticatedClientIsSetForACreateIssueRequest() (0.1s)
+2019-06-24T01:50:35.9713173+01:00:Thread#0:B:When I send a post request with the following request body
+2019-06-24T01:50:35.9713173+01:00:Thread#0:B:  --- table step argument ---
+2019-06-24T01:50:35.9713173+01:00:Thread#0:B:  | name   | value                              |
+2019-06-24T01:50:35.9713173+01:00:Thread#0:B:  | title  | Hi                                 |
+2019-06-24T01:50:35.9713173+01:00:Thread#0:B:  | body   | Thus issue was menerated by a test |
+2019-06-24T01:50:35.9713173+01:00:Thread#0:B:  | labels | bug                                |
+2019-06-24T01:50:37.9792039+01:00:Thread#0:T:done: IssueSteps.WhenISendAPostRequestWithTheFollowingRequestBody(IssuesTestSolutio...) (1.9s)
+2019-06-24T01:50:37.9792039+01:00:Thread#0:B:Then success response status should be 201
+2019-06-24T01:50:52.4775699+01:00:Thread#0:T:done: IssueSteps.ThenResponseStatusShouldBeOk(201) (14.5s)
+2019-06-24T01:50:52.4785671+01:00:Thread#0:B:And response body contains issue information
+2019-06-24T01:51:47.4532261+01:00:Thread#0:T:error: Expected httpsRequests.GetResponseIssueInfo().body to be <null>, but found "Thus issue was menerated by a test".
+2019-06-24T01:51:57.8427318+01:00:Thread#0:TestItem#4:Scheduler: reschedule tests for testitem #4
+2019-06-24T01:51:57.8437112+01:00:Thread#0:Scheduler: get next test for thread 0
+2019-06-24T01:51:57.8437112+01:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2019-06-24T01:51:57.8437112+01:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2019-06-24T01:51:57.8437112+01:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2019-06-24T01:51:57.8437112+01:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2019-06-24T01:51:57.8437112+01:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+2019-06-24T01:51:57.8437112+01:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2019-06-24T01:51:57.8437112+01:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2019-06-24T01:51:57.8437112+01:00:Thread#0:Scheduler: with testItemExecutionIndex 1
+2019-06-24T01:51:57.8576575+01:00:Thread#0: Test #4/0 is finished on thread #0 as Failed within 82.7925785 seconds
+2019-06-24T01:51:57.8606457+01:00:Thread#0: Test #4/1 is started on thread #0
+2019-06-24T01:51:57.8606457+01:00:Thread#0:B:Given authenticated client is set for a create issue request
+2019-06-24T01:51:57.8616440+01:00:Thread#0:T:done: IssueSteps.GivenAuthenticatedClientIsSetForACreateIssueRequest() (0.0s)
+2019-06-24T01:51:57.8616440+01:00:Thread#0:B:When I send a post request with the following request body
+2019-06-24T01:51:57.8616440+01:00:Thread#0:B:  --- table step argument ---
+2019-06-24T01:51:57.8616440+01:00:Thread#0:B:  | name   | value                              |
+2019-06-24T01:51:57.8616440+01:00:Thread#0:B:  | title  | Hi                                 |
+2019-06-24T01:51:57.8731025+01:00:Thread#0:B:  | body   | Thus issue was menerated by a test |
+2019-06-24T01:51:57.8731025+01:00:Thread#0:B:  | labels | bug                                |
+2019-06-24T01:51:58.5901705+01:00:Thread#0:T:done: IssueSteps.WhenISendAPostRequestWithTheFollowingRequestBody(IssuesTestSolutio...) (0.7s)
+2019-06-24T01:51:58.5901705+01:00:Thread#0:B:Then success response status should be 201
+2019-06-24T01:52:15.9418498+01:00:Thread#0:T:done: IssueSteps.ThenResponseStatusShouldBeOk(201) (17.4s)
+2019-06-24T01:52:15.9478333+01:00:Thread#0:B:And response body contains issue information
+2019-06-24T01:52:22.9914715+01:00:Thread#0:T:error: Expected httpsRequests.GetResponseIssueInfo().body to be <null>, but found "Thus issue was menerated by a test".
+2019-06-24T01:52:27.3194356+01:00:Thread#0:Scheduler: get next test for thread 0
+2019-06-24T01:52:27.3194356+01:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2019-06-24T01:52:27.3194356+01:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2019-06-24T01:52:27.3204328+01:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2019-06-24T01:52:27.3204328+01:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2019-06-24T01:52:27.3204328+01:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+2019-06-24T01:52:27.3204328+01:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2019-06-24T01:52:27.3204328+01:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2019-06-24T01:52:27.3204328+01:00:Thread#0:Scheduler: with testItemExecutionIndex 2
+2019-06-24T01:52:27.3214296+01:00:Thread#0: Test #4/1 is finished on thread #0 as Failed within 29.4607839 seconds
+2019-06-24T01:52:27.3224272+01:00:Thread#0: Test #4/2 is started on thread #0
+2019-06-24T01:52:27.3224272+01:00:Thread#0:B:Given authenticated client is set for a create issue request
+2019-06-24T01:52:27.3224272+01:00:Thread#0:T:done: IssueSteps.GivenAuthenticatedClientIsSetForACreateIssueRequest() (0.0s)
+2019-06-24T01:52:27.3234247+01:00:Thread#0:B:When I send a post request with the following request body
+2019-06-24T01:52:27.3234247+01:00:Thread#0:B:  --- table step argument ---
+2019-06-24T01:52:27.3234247+01:00:Thread#0:B:  | name   | value                              |
+2019-06-24T01:52:27.3234247+01:00:Thread#0:B:  | title  | Hi                                 |
+2019-06-24T01:52:27.3244219+01:00:Thread#0:B:  | body   | Thus issue was menerated by a test |
+2019-06-24T01:52:27.3244219+01:00:Thread#0:B:  | labels | bug                                |
+2019-06-24T01:52:27.7821414+01:00:Thread#0:T:done: IssueSteps.WhenISendAPostRequestWithTheFollowingRequestBody(IssuesTestSolutio...) (0.5s)
+2019-06-24T01:52:27.7821414+01:00:Thread#0:B:Then success response status should be 201
+2019-06-24T01:52:29.7112317+01:00:Thread#0:T:done: IssueSteps.ThenResponseStatusShouldBeOk(201) (1.9s)
+2019-06-24T01:52:29.7112317+01:00:Thread#0:B:And response body contains issue information
+2019-06-24T01:52:32.6062185+01:00:Thread#0:T:error: Expected httpsRequests.GetResponseIssueInfo().body to be <null>, but found "Thus issue was menerated by a test".
+2019-06-24T01:52:33.6824079+01:00:Thread#0:Scheduler: get next test for thread 0
+2019-06-24T01:52:33.6824079+01:00:Thread#:Scheduler: testitem #5 from normal test queue 
+2019-06-24T01:52:33.6824079+01:00:Thread#0:Scheduler: considering testitem #5 for thread 0
+2019-06-24T01:52:33.6824079+01:00:Thread#0:TestItem#5:testItemMatchesCurrentTestThread:UnSpecific
+2019-06-24T01:52:33.6824079+01:00:Thread#0:TestItem#5:runsOnOneOtherThreadSpecific:False
+2019-06-24T01:52:33.6824079+01:00:Thread#0:TestItem#5:runsOnOneOtherThreadUnspecific:False
+2019-06-24T01:52:33.6824079+01:00:Thread#0:Scheduler: using testitem #5 for thread 0
+2019-06-24T01:52:33.6824079+01:00:Thread#0:Scheduler: Test #5 is scheduled for thread
+2019-06-24T01:52:33.6824079+01:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2019-06-24T01:52:33.6834047+01:00:Thread#0: Test #4/2 is finished on thread #0 as Failed within 6.3609775 seconds
+2019-06-24T01:52:33.6844011+01:00:Thread#0: Test #5/0 is started on thread #0
+2019-06-24T01:52:33.6853976+01:00:Thread#0:B:Given authenticated client is set for an edit issue for the most recent request
+2019-06-24T01:52:33.6873912+01:00:Thread#0:T:binding error: Parameter count mismatch! The binding method 'IssuesTestSolution:IssuesTestSolution.Steps.IssueSteps.GivenAuthenticatedClientIsSetForAnEditIssueRequest()' should have 1 parameters
+2019-06-24T01:52:33.6873912+01:00:Thread#0:B:When I send a patch request with the following request body
+2019-06-24T01:52:33.6883895+01:00:Thread#0:B:  --- table step argument ---
+2019-06-24T01:52:33.6883895+01:00:Thread#0:B:  | name   | value                              |
+2019-06-24T01:52:33.6883895+01:00:Thread#0:B:  | title  | Hello                              |
+2019-06-24T01:52:33.6883895+01:00:Thread#0:B:  | body   | This issue was generated by a test |
+2019-06-24T01:52:33.6883895+01:00:Thread#0:B:  | labels | bug,Document                       |
+2019-06-24T01:52:33.6893860+01:00:Thread#0:T:skipped because of previous errors
+2019-06-24T01:52:33.6893860+01:00:Thread#0:B:Then success response status should be 200
+2019-06-24T01:52:33.6903832+01:00:Thread#0:T:skipped because of previous errors
+2019-06-24T01:52:33.6903832+01:00:Thread#0:B:And response body contains issue information
+2019-06-24T01:52:33.6903832+01:00:Thread#0:T:skipped because of previous errors
+2019-06-24T01:52:34.8255873+01:00:Thread#0:TestItem#5:Scheduler: reschedule tests for testitem #5
+2019-06-24T01:52:34.8255873+01:00:Thread#0:Scheduler: get next test for thread 0
+2019-06-24T01:52:34.8255873+01:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #5
+2019-06-24T01:52:34.8255873+01:00:Thread#0:Scheduler: considering testitem #5 for thread 0
+2019-06-24T01:52:34.8255873+01:00:Thread#0:TestItem#5:testItemMatchesCurrentTestThread:UnSpecific
+2019-06-24T01:52:34.8255873+01:00:Thread#0:TestItem#5:runsOnOneOtherThreadSpecific:False
+2019-06-24T01:52:34.8255873+01:00:Thread#0:TestItem#5:runsOnOneOtherThreadUnspecific:False
+2019-06-24T01:52:34.8255873+01:00:Thread#0:Scheduler: using testitem #5 for thread 0
+2019-06-24T01:52:34.8255873+01:00:Thread#0:Scheduler: Test #5 is scheduled for thread
+2019-06-24T01:52:34.8255873+01:00:Thread#0:Scheduler: with testItemExecutionIndex 1
+2019-06-24T01:52:34.8255873+01:00:Thread#0: Test #5/0 is finished on thread #0 as Failed within 1.1411862 seconds
+2019-06-24T01:52:34.8265819+01:00:Thread#0: Test #5/1 is started on thread #0
+2019-06-24T01:52:34.8265819+01:00:Thread#0:B:Given authenticated client is set for an edit issue for the most recent request
+2019-06-24T01:52:34.8265819+01:00:Thread#0:T:binding error: Parameter count mismatch! The binding method 'IssuesTestSolution:IssuesTestSolution.Steps.IssueSteps.GivenAuthenticatedClientIsSetForAnEditIssueRequest()' should have 1 parameters
+2019-06-24T01:52:34.8275806+01:00:Thread#0:B:When I send a patch request with the following request body
+2019-06-24T01:52:34.8275806+01:00:Thread#0:B:  --- table step argument ---
+2019-06-24T01:52:34.8275806+01:00:Thread#0:B:  | name   | value                              |
+2019-06-24T01:52:34.8275806+01:00:Thread#0:B:  | title  | Hello                              |
+2019-06-24T01:52:34.8275806+01:00:Thread#0:B:  | body   | This issue was generated by a test |
+2019-06-24T01:52:34.8275806+01:00:Thread#0:B:  | labels | bug,Document                       |
+2019-06-24T01:52:34.8295753+01:00:Thread#0:T:skipped because of previous errors
+2019-06-24T01:52:34.8295753+01:00:Thread#0:B:Then success response status should be 200
+2019-06-24T01:52:34.8295753+01:00:Thread#0:T:skipped because of previous errors
+2019-06-24T01:52:34.8295753+01:00:Thread#0:B:And response body contains issue information
+2019-06-24T01:52:34.8295753+01:00:Thread#0:T:skipped because of previous errors
+2019-06-24T01:52:35.9126817+01:00:Thread#0:Scheduler: get next test for thread 0
+2019-06-24T01:52:35.9126817+01:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #5
+2019-06-24T01:52:35.9126817+01:00:Thread#0:Scheduler: considering testitem #5 for thread 0
+2019-06-24T01:52:35.9126817+01:00:Thread#0:TestItem#5:testItemMatchesCurrentTestThread:UnSpecific
+2019-06-24T01:52:35.9126817+01:00:Thread#0:TestItem#5:runsOnOneOtherThreadSpecific:False
+2019-06-24T01:52:35.9126817+01:00:Thread#0:TestItem#5:runsOnOneOtherThreadUnspecific:False
+2019-06-24T01:52:35.9126817+01:00:Thread#0:Scheduler: using testitem #5 for thread 0
+2019-06-24T01:52:35.9126817+01:00:Thread#0:Scheduler: Test #5 is scheduled for thread
+2019-06-24T01:52:35.9126817+01:00:Thread#0:Scheduler: with testItemExecutionIndex 2
+2019-06-24T01:52:35.9126817+01:00:Thread#0: Test #5/1 is finished on thread #0 as Failed within 1.0860998 seconds
+2019-06-24T01:52:35.9136785+01:00:Thread#0: Test #5/2 is started on thread #0
+2019-06-24T01:52:35.9146760+01:00:Thread#0:B:Given authenticated client is set for an edit issue for the most recent request
+2019-06-24T01:52:35.9146760+01:00:Thread#0:T:binding error: Parameter count mismatch! The binding method 'IssuesTestSolution:IssuesTestSolution.Steps.IssueSteps.GivenAuthenticatedClientIsSetForAnEditIssueRequest()' should have 1 parameters
+2019-06-24T01:52:35.9146760+01:00:Thread#0:B:When I send a patch request with the following request body
+2019-06-24T01:52:35.9156721+01:00:Thread#0:B:  --- table step argument ---
+2019-06-24T01:52:35.9156721+01:00:Thread#0:B:  | name   | value                              |
+2019-06-24T01:52:35.9156721+01:00:Thread#0:B:  | title  | Hello                              |
+2019-06-24T01:52:35.9156721+01:00:Thread#0:B:  | body   | This issue was generated by a test |
+2019-06-24T01:52:35.9156721+01:00:Thread#0:B:  | labels | bug,Document                       |
+2019-06-24T01:52:35.9166704+01:00:Thread#0:T:skipped because of previous errors
+2019-06-24T01:52:35.9166704+01:00:Thread#0:B:Then success response status should be 200
+2019-06-24T01:52:35.9176680+01:00:Thread#0:T:skipped because of previous errors
+2019-06-24T01:52:35.9176680+01:00:Thread#0:B:And response body contains issue information
+2019-06-24T01:52:35.9176680+01:00:Thread#0:T:skipped because of previous errors
+2019-06-24T01:52:41.8388012+01:00:Thread#0:Scheduler: get next test for thread 0
+2019-06-24T01:52:41.8388012+01:00:Thread#:Scheduler: testitem #6 from normal test queue 
+2019-06-24T01:52:41.8388012+01:00:Thread#0:Scheduler: considering testitem #6 for thread 0
+2019-06-24T01:52:41.8388012+01:00:Thread#0:TestItem#6:testItemMatchesCurrentTestThread:UnSpecific
+2019-06-24T01:52:41.8388012+01:00:Thread#0:TestItem#6:runsOnOneOtherThreadSpecific:False
+2019-06-24T01:52:41.8388012+01:00:Thread#0:TestItem#6:runsOnOneOtherThreadUnspecific:False
+2019-06-24T01:52:41.8388012+01:00:Thread#0:Scheduler: using testitem #6 for thread 0
+2019-06-24T01:52:41.8388012+01:00:Thread#0:Scheduler: Test #6 is scheduled for thread
+2019-06-24T01:52:41.8388012+01:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2019-06-24T01:52:41.8397983+01:00:Thread#0: Test #5/2 is finished on thread #0 as Failed within 5.9251227 seconds
+2019-06-24T01:52:41.8397983+01:00:Thread#0: Test #6/0 is started on thread #0
+2019-06-24T01:52:41.8407959+01:00:Thread#0:B:Given authenticated client is set for a retrieve repo issues request
+2019-06-24T01:52:41.8417942+01:00:Thread#0:T:done: IssueSteps.GivenAuthenticatedClientIsSetForARetrieveRepoIssuesRequest() (0.0s)
+2019-06-24T01:52:41.8427895+01:00:Thread#0:B:And the first issue created has title Hello
+2019-06-24T01:52:41.8438245+01:00:Thread#0:T:done: IssueSteps.GivenTheFirstIssueCreatedHasTitleHello("Hello") (0.0s)
+2019-06-24T01:52:41.8438245+01:00:Thread#0:B:When I send the get request
+2019-06-24T01:52:42.1226348+01:00:Thread#0:T:done: IssueSteps.WhenISendTheGetRequest() (0.3s)
+2019-06-24T01:52:42.1226348+01:00:Thread#0:B:Then success response status should be 200

@@ -1,0 +1,57 @@
+﻿2019-06-24T02:21:03.8550632+01:00;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2019-06-24T02:21:03.8550632+01:00;VSTestExecutionThread;Info;SpecFlow+Runner 3.0.352 in Framework clr40 in x64 mode execution started
+2019-06-24T02:21:03.8550632+01:00;VSTestExecutionThread;Info;TestAdapter Location: C:\Repos\TandemTest\IssuesTestSolution\IssuesTestSolution\bin\Debug\TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2019-06-24T02:21:03.9114277+01:00;VSTestExecutionThread;Info;SpecRun: running tests in C:\Repos\TandemTest\IssuesTestSolution\IssuesTestSolution\bin\Debug\IssuesTestSolution.dll
+2019-06-24T02:21:03.9114277+01:00;VSTestExecutionThread;Info;Output folder configured to "C:\Repos\TandemTest\IssuesTestSolution\TestResults" (default)
+2019-06-24T02:21:03.9134274+01:00;VSTestExecutionThread;Info;Profile: 
+2019-06-24T02:21:04.0186562+01:00;VSTestExecutionThread;Info;Log file path: C:\Repos\TandemTest\IssuesTestSolution\TestResults\Unnamed project__2019-06-24T022103.log
+2019-06-24T02:21:04.0216481+01:00;VSTestExecutionThread;Error;Invalid project license: The test assembly name must contain the licensed project name
+2019-06-24T02:21:04.0824828+01:00;VSTestExecutionThread;Info;SpecFlow+Runner Evaluation Mode: Please purchase at http://www.specflow.org/plus to remove test execution delay.
+2019-06-24T02:21:04.1961796+01:00;Thread#14;Info;Checking license
+2019-06-24T02:21:04.1961796+01:00;Thread#14;Error;Invalid project license: The test assembly name must contain the licensed project name
+2019-06-24T02:21:04.1981732+01:00;Thread#14;Error;Invalid project license: The test assembly name must contain the licensed project name
+2019-06-24T02:21:04.2709784+01:00;Thread#14;Info;Evaluation mode: test execution starts in 9 seconds... (this delay is removed in the registered version)
+2019-06-24T02:21:13.2780678+01:00;Thread#14;Info;Evaluation delay finished.
+2019-06-24T02:21:13.2999739+01:00;Thread#14;Info;License check completed
+2019-06-24T02:21:13.2999739+01:00;Thread#14;Info;starting test run
+2019-06-24T02:21:13.3368277+01:00;Thread#14;Info;Discovering target: Default
+2019-06-24T02:21:13.3368277+01:00;Thread#14;Info;Discovering tests from assembly: C:\Repos\TandemTest\IssuesTestSolution\IssuesTestSolution\bin\Debug\IssuesTestSolution.dll
+2019-06-24T02:21:13.9796860+01:00:Appdomain Disposed
+2019-06-24T02:21:13.9796860+01:00;Thread#14;Info;Discovered tests from assembly: C:\Repos\TandemTest\IssuesTestSolution\IssuesTestSolution\bin\Debug\IssuesTestSolution.dll
+2019-06-24T02:21:13.9806821+01:00:Test Suite Dump
+2019-06-24T02:21:13.9826776+01:00:#0: Unnamed project/ - 
+2019-06-24T02:21:13.9826776+01:00:#1: Default - 
+2019-06-24T02:21:13.9826776+01:00:#2: IssuesTestSolution - 
+2019-06-24T02:21:13.9826776+01:00:#3: IssueTests - 
+2019-06-24T02:21:14.0375288+01:00:#5: An authenticated client can edit an issue - TestAssembly:IssuesTestSolution/Feature:IssueTests/Scenario:An+authenticated+client+can+edit+an+issue
+2019-06-24T02:21:14.0375288+01:00:#6: An authenticated client can list issues for a repo - TestAssembly:IssuesTestSolution/Feature:IssueTests/Scenario:An+authenticated+client+can+list+issues+for+a+repo
+2019-06-24T02:21:14.0375288+01:00:End: Test Suite Dump
+2019-06-24T02:21:14.0784227+01:00:Thread#0:Scheduler: get next test for thread 0
+2019-06-24T02:21:14.0804171+01:00:Thread#:Scheduler: testitem #5 from normal test queue 
+2019-06-24T02:21:14.0804171+01:00:Thread#0:Scheduler: considering testitem #5 for thread 0
+2019-06-24T02:21:14.0863987+01:00:Thread#0:TestItem#5:testItemMatchesCurrentTestThread:UnSpecific
+2019-06-24T02:21:14.0863987+01:00:Thread#0:TestItem#5:runsOnOneOtherThreadSpecific:False
+2019-06-24T02:21:14.0863987+01:00:Thread#0:TestItem#5:runsOnOneOtherThreadUnspecific:False
+2019-06-24T02:21:14.0863987+01:00:Thread#0:Scheduler: using testitem #5 for thread 0
+2019-06-24T02:21:14.0884282+01:00:Thread#0:Scheduler: Test #5 is scheduled for thread
+2019-06-24T02:21:14.0893910+01:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2019-06-24T02:21:14.0933824+01:00:Thread #0: creating new test thread executor for IssuesTestSolution, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+2019-06-24T02:21:14.0953761+01:00:Thread #0: Creating test assembly executor for execution model AppDomain
+2019-06-24T02:21:14.0963736+01:00:Thread #0: Creating test assembly executor for execution model AppDomain
+2019-06-24T02:21:14.0963736+01:00:using TechTalk.SpecRun.Framework.Execution.InProcess.InProcAppDomainTestAssemblyExecutorHost to execute tests
+2019-06-24T02:21:14.2190444+01:00:Thread#0: Test #5/0 is started on thread #0
+2019-06-24T02:21:14.7306767+01:00:Thread#0:T:-> Loading plugin C:\Repos\TandemTest\IssuesTestSolution\IssuesTestSolution\bin\Debug\SpecRun.Runtime.SpecFlowPlugin.dll
+2019-06-24T02:21:14.7426796+01:00:Thread#0:T:-> Using app.config
+2019-06-24T02:21:14.9333852+01:00:Thread#0:B:Given authenticated client is set for an edit issue for the most recent request
+2019-06-24T02:21:15.1358433+01:00:Thread#0:T:done: IssueSteps.GivenAuthenticatedClientIsSetForAnEditIssueRequest("for the most recent") (0.1s)
+2019-06-24T02:21:15.1460822+01:00:Thread#0:B:When I send a patch request with the following request body
+2019-06-24T02:21:15.1460822+01:00:Thread#0:B:  --- table step argument ---
+2019-06-24T02:21:15.1460822+01:00:Thread#0:B:  | name   | value                              |
+2019-06-24T02:21:15.1460822+01:00:Thread#0:B:  | title  | Hello                              |
+2019-06-24T02:21:15.1460822+01:00:Thread#0:B:  | body   | This issue was generated by a test |
+2019-06-24T02:21:15.1460822+01:00:Thread#0:B:  | labels | bug,Document                       |
+2019-06-24T02:22:55.3188930+01:00:Thread#0:T:done: IssueSteps.WhenISendAPutRequestWithTheFollowingRequestBody(IssuesTestSolutio...) (1.4s)
+2019-06-24T02:22:55.3198932+01:00:Thread#0:B:Then success response status should be 200
+2019-06-24T02:24:00.9258547+01:00:Thread#0:T:error: Expected httpsRequests.GetResponseStatus() to be OK, but found NotFound.
+2019-06-24T02:24:00.9278498+01:00:Thread#0:B:And response body contains issue information
+2019-06-24T02:24:00.9278498+01:00:Thread#0:T:skipped because of previous errors

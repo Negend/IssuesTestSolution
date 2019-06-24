@@ -23,7 +23,7 @@ namespace IssuesTestSolution.Hooks
         [BeforeScenario]
         public void BeforeTestRun()
         {
-           _githubSettings = _objectContainer.Resolve<IGithubSettings>();
+            _githubSettings = _objectContainer.Resolve<IGithubSettings>();
         }
     }
 }
